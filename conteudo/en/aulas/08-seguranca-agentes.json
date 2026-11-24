@@ -5,7 +5,7 @@
   "titulo": "What went wrong with agents and the security rules",
   "titulo_curto": "Failures and rules",
   "minutos": 20,
-  "lead": "Agents fail in predictable ways: they claim without checking, add up wrong, break what was working, use the key they found. Each real failure in INEMA's SEO project became one line in the failure log and one rule in AGENTS.md. This lesson shows the failures, the smallest fix for each, and closes the course with your plan.",
+  "lead": "Agents fail in predictable ways: they claim without checking, add up wrong, break what was working, use the key they found. Each real failure in ARCKHÉ's SEO project became one line in the failure log and one rule in AGENTS.md. This lesson shows the failures, the smallest fix for each, and closes the course with your plan.",
   "objetivo": "recognize the real failures of agents in SEO and apply the rules: only authorized APIs, secrets outside the repo, check before claiming.",
   "competencias": [
     "register-failure-with-smallest-fix",
@@ -74,7 +74,7 @@
     },
     {
       "tipo": "passos",
-      "titulo": "The real failures of the INEMA SEO project",
+      "titulo": "The real failures of the ARCKHÉ SEO project",
       "sub": "Tap each step. All of them are in the project's FALHAS.md.",
       "passos": [
         {
@@ -117,7 +117,7 @@
       "sub": "Copy FALHAS.md to the project root. Run the scan before every push.",
       "blocos": [
         {
-          "rot": "FALHAS.md (real lines from the INEMA SEO project)",
+          "rot": "FALHAS.md (real lines from the ARCKHÉ SEO project)",
           "icone": "arquivo",
           "conteudo": "# FALHAS\n\n| date | what broke | smallest fix | prompt \\| infra |\n|---|---|---|---|\n| 2026-10-02 | IndexNow returned 403 SiteVerificationNotCompleted on the 1st submission (key just published) | resubmit after ~4 min | infra |\n| 2026-10-02 | /cursos/ became \"search only\" and the listing pages lost the only internal link rendered on the server | collapsed index (details) with plain links below the search | prompt |\n| 2026-09-24 | weekly export summed branded impressions by query+page (part larger than the total) | sums by the query dimension only | prompt |\n| 2026-09-23 | plan said \"no Search Console\" (only looked in the code) | check DNS TXT before claiming it's absent | prompt |"
         },
@@ -144,7 +144,7 @@
     {
       "tipo": "simconversa",
       "titulo": "Simulation: the agent found an API key",
-      "sub": "You're the one answering the agent. The conversation is fiction; the rules come from the inemaSEO method.",
+      "sub": "You're the one answering the agent. The conversation is fiction; the rules come from the ARCKHÉSEO method.",
       "personagem": {
         "nome": "SEO agent",
         "papel": "simulation · agent in your project's terminal"
@@ -410,7 +410,7 @@
       "tipo": "gerador",
       "titulo": "Generate your plan with dates",
       "sub": "Pick the start date and how much time you have per week.",
-      "curso": "inemaSEO 5 · With Agents",
+      "curso": "ARCKHÉSEO 5 · With Agents",
       "horas_padrao": 3,
       "degraus": [
         {
@@ -447,7 +447,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 5 · With Agents",
+        "titulo": "Plan — ARCKHÉSEO 5 · With Agents",
         "inicio": "Start",
         "ritmo": "Pace",
         "termino": "Expected finish",
@@ -465,17 +465,17 @@
       "links": [
         {
           "t": "avisar_buscadores.sh (only 200 URLs)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/avisar_buscadores.sh",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/avisar_buscadores.sh",
           "icone": "enviar"
         },
         {
-          "t": "inemaSEO method: the machine with agents",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method: the machine with agents",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "camadas"
         },
         {
           "t": "Course 6: Professional",
-          "href": "https://inematds.github.io/formacao-inemaseo-profissional-v72/en/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "usuario"
         }
       ]

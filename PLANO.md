@@ -1,8 +1,8 @@
-# PLANO — inemaSEO 5 · Com Agentes: Claude Code e Codex fazendo o trabalho repetitivo (v7.2)
+# PLANO — ARCKHÉSEO 5 · Com Agentes: Claude Code e Codex fazendo o trabalho repetitivo (v7.2)
 
-Curso 5 de 6 da Formação inemaSEO. Público: quem fez os cursos 1–3, ou técnico que usa o terminal e quer agentes fazendo o SEO repetitivo com segurança. Ordem: 1 → 2 → 3 → 4 → 5 → 6 (lado_card → curso 6 `formacao-inemaseo-profissional-v72`).
+Curso 5 de 6 da Formação ARCKHÉSEO. Público: quem fez os cursos 1–3, ou técnico que usa o terminal e quer agentes fazendo o SEO repetitivo com segurança. Ordem: 1 → 2 → 3 → 4 → 5 → 6 (lado_card → curso 6 `formacao-ARCKHÉseo-profissional-v72`).
 
-Fontes (não alteradas): `~/projetos/inemaseo-metodo` (docs/METODO.md "A máquina com agentes", docs/CHECKLIST.md, templates/prompt-ficha-extrativa.md, tools/auditoria.sh, link_de_volta.py, validar_extracao.mjs, avisar_buscadores.sh, gsc_semanal.py), `~/projetos/inemaseo` (FALHAS.md, docs/HISTORICO.md, PROXIMOS_PASSOS.md, scripts/gsc_relatorio_semanal.py, reports/semana-2026-10-11.md; nunca ACESSOS.md nem ids), `~/projetos/inemanews/scripts/gera-textos.mjs` (chamada do Codex + primeiroJson), `~/projetos/claude-seo` (README: núcleo grátis; DataForSEO pago), `~/projetos/execucao-longa` (templates/goal.md: comando → saída esperada, escala 0–4), `wifi/longrun/2026-10-19-formacao-inemaseo-v72/` (SISTEMAS-SEO-FERRAMENTAS.md, REVISAO §4.1–4.2). Números do INEMA só da lista "Casos reais" do BRIEF.
+Fontes (não alteradas): `~/projetos/ARCKHÉseo-metodo` (docs/METODO.md "A máquina com agentes", docs/CHECKLIST.md, templates/prompt-ficha-extrativa.md, tools/auditoria.sh, link_de_volta.py, validar_extracao.mjs, avisar_buscadores.sh, gsc_semanal.py), `~/projetos/ARCKHÉseo` (FALHAS.md, docs/HISTORICO.md, PROXIMOS_PASSOS.md, scripts/gsc_relatorio_semanal.py, reports/semana-2026-10-11.md; nunca ACESSOS.md nem ids), `~/projetos/ARCKHÉnews/scripts/gera-textos.mjs` (chamada do Codex + primeiroJson), `~/projetos/claude-seo` (README: núcleo grátis; DataForSEO pago), `~/projetos/execucao-longa` (templates/goal.md: comando → saída esperada, escala 0–4), `wifi/longrun/2026-10-19-formacao-ARCKHÉseo-v72/` (SISTEMAS-SEO-FERRAMENTAS.md, REVISAO §4.1–4.2). Números do ARCKHÉ só da lista "Casos reais" do BRIEF.
 
 ## As 8 aulas
 
@@ -15,7 +15,7 @@ Fontes (não alteradas): `~/projetos/inemaseo-metodo` (docs/METODO.md "A máquin
 | 5 | `meta-verificavel` | Meta verificável e portão antes do push | escrever a meta do agente como comando → saída esperada, com trava contra atalho, e só fazer push depois do portão humano | meta vaga → comando + saída → trava (nível 3) → loop até passar → portão 2 → push | 1) goal.md de uma página com função, regressão e limite; 2) uma página passada pelo loop e pelo portão | CHECKLIST; REVISAO §4.1; execucao-longa `goal.md` |
 | 6 | `relatorio-semanal` | Relatório semanal e o agente que propõe | gerar o relatório semanal sem marca e pedir ao agente 3 propostas com evidência, que você aprova antes de virar tarefa | export sem marca + inspeção + consultas-alvo → relatório .md → agente lê → 3 propostas → você aprova | 1) relatório semanal de uma semana do seu site; 2) 3 propostas com evidência e decisão | `gsc_relatorio_semanal.py`; `semana-2026-10-11.md`; PROXIMOS_PASSOS |
 | 7 | `aberto-pago` | Ferramentas abertas × pagas | montar o núcleo grátis por função e decidir, com o limite honesto de cada uma, quando uma ferramenta paga se paga | função → fonte grátis → limite → pago opcional (DataForSEO, Firecrawl, Apify, open-seo) | 1) tabela das suas funções com fonte grátis e limite; 2) decisão escrita de pago ou não, com data | SISTEMAS (tabela + acréscimo); `claude-seo` DataForSEO |
-| 8 | `seguranca-agentes` | O que deu errado e as regras | reconhecer as falhas reais de agentes em SEO e aplicar as regras: API só autorizada, segredo fora do repo, conferir antes de afirmar | falha → menor correção → regra (prompt ou infra) → AGENTS.md | 1) FALHAS.md do seu projeto com 3 linhas; 2) varredura de segredo no repo e .gitignore conferido | `inemaseo/FALHAS.md`; METODO; `avisar_buscadores.sh` |
+| 8 | `seguranca-agentes` | O que deu errado e as regras | reconhecer as falhas reais de agentes em SEO e aplicar as regras: API só autorizada, segredo fora do repo, conferir antes de afirmar | falha → menor correção → regra (prompt ou infra) → AGENTS.md | 1) FALHAS.md do seu projeto com 3 linhas; 2) varredura de segredo no repo e .gitignore conferido | `ARCKHÉseo/FALHAS.md`; METODO; `avisar_buscadores.sh` |
 
 Aula 8 fecha com `mapa` (4 degraus: máquina, auditor+extração, lote+meta, rotina+guarda) + `gerador` (8 aulas).
 
@@ -33,16 +33,16 @@ Aula 8 fecha com `mapa` (4 degraus: máquina, auditor+extração, lote+meta, rot
 Somas: direto 2+2+2 = 6; desvio 1+1+2+2 = 6 (não passa do direto). Máximo = 6.
 
 ## Saídas reais capturadas (19/10/2026, scratchpad)
-- `auditoria.sh https://www.inema.club` (só leitura, site público): redirecionamentos 308, robots.txt com ClaudeBot no grupo de busca, sitemaps.
+- `auditoria.sh https://www.ARCKHÉ AI` (só leitura, site público): redirecionamentos 308, robots.txt com ClaudeBot no grupo de busca, sitemaps.
 - `link_de_volta.py mapa.json` em 4 repos de teste: DRY / PULA (sujo) / OK já tinha / DRY em landing.html (meta refresh), e `--apply`.
 - `codex exec ... --sandbox read-only` com o prompt extrativo numa fonte de exemplo (curso de cerâmica): 4/4 módulos válidos; o mesmo texto com pedido "atraente" inventou "24 horas" e reescreveu títulos → 0 módulos válidos.
 
 ## Decisões tomadas sozinho
 - Aula 3 complementa a aula 5 do curso 2 (que ensina o prompt e a trava): aqui o foco é a chamada pela assinatura, o primeiro JSON e o "descarta, não conserta" no lote; o script `valida-ficha.mjs` é um modelo que só usa a biblioteca documentada do `validar_extracao.mjs`.
-- Aula 5 usa o `goal.md` do repo aberto `execucao-longa` (INEMA) como formato da meta; "legibilidade > 70" do material de terceiros não entra.
-- Aula 7 cita `inemaseo-sistemas` e o curso 7 como aprofundamento, sem ensinar os comandos deles. Preços só do README do claude-seo (DataForSEO) e das páginas lidas em 19/10 (Firecrawl, Apify), com "confira no site".
+- Aula 5 usa o `goal.md` do repo aberto `execucao-longa` (ARCKHÉ) como formato da meta; "legibilidade > 70" do material de terceiros não entra.
+- Aula 7 cita `ARCKHÉseo-sistemas` e o curso 7 como aprofundamento, sem ensinar os comandos deles. Preços só do README do claude-seo (DataForSEO) e das páginas lidas em 19/10 (Firecrawl, Apify), com "confira no site".
 - Números das FALHAS fora da lista "Casos reais" (548, 65, 205/204) não entram; a falha é contada sem o número.
-- Aula 6: o `gsc_relatorio_semanal.py` está no repo privado `inemaseo`; o curso ensina o `gsc_semanal.py` público + o relatório montado pelo agente, e mostra trecho do relatório real (só números da lista).
+- Aula 6: o `gsc_relatorio_semanal.py` está no repo privado `ARCKHÉseo`; o curso ensina o `gsc_semanal.py` público + o relatório montado pelo agente, e mostra trecho do relatório real (só números da lista).
 
 ## Resultado (19/10/2026)
 - Portão: `validar.py` OK em PT/EN/ES (`--links`: só o curso 6 falha, ainda não publicado); `conferir-tela.cjs` 27 páginas × 2 larguras OK, simconversa percorrida (máx. 6), simfila na aula 4.
@@ -51,4 +51,4 @@ Somas: direto 2+2+2 = 6; desvio 1+1+2+2 = 6 (não passa do direto). Máximo = 6.
 
 ## Lições para os próximos cursos
 - Saída "real" de extração por LLM: rode o pedido extrativo E um pedido livre ("atraente") na mesma fonte; o contraste (0 × 4 módulos válidos, número inventado) ensina mais que qualquer texto.
-- Script de fonte privada (repo `inemaseo`): mostre a saída real, mas ensine o caminho público equivalente.
+- Script de fonte privada (repo `ARCKHÉseo`): mostre a saída real, mas ensine o caminho público equivalente.

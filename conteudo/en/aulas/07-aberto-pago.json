@@ -23,7 +23,7 @@
       "t": "open-seo, DataForSEO, Firecrawl, and Apify: what each one sells"
     },
     {
-      "t": "Going deeper: the inemaseo-sistemas repository and course 7"
+      "t": "Going deeper: the ARCKHÉseo-sistemas repository and course 7"
     }
   ],
   "hero_alt": "A carpenter weighs, at the workbench, organized hand tools on the wall against a large professional machine.",
@@ -119,7 +119,7 @@
           "sub": "without paying",
           "texto": [
             "For your own site: crawl4ai (Apache-2.0), Scrapy, and Crawlee crawl and convert to text. Scrapling (BSD-3) gets around anti-bot protections; use it only on your own site or with permission.",
-            "INEMA's open tools for your site are in the inemaseo-sistemas repository, taught in course 7."
+            "ARCKHÉ's open tools for your site are in the ARCKHÉseo-sistemas repository, taught in course 7."
           ]
         }
       ]
@@ -258,13 +258,13 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "inemaSEO systems: open tools for your site",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉSEO systems: open tools for your site",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "terminal"
         },
         {
           "t": "Course 7: Systems, build your own open Semrush",
-          "href": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/en/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },
         {

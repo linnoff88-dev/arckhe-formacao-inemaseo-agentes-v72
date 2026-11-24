@@ -5,7 +5,7 @@
   "titulo": "The machine with agents: who does what and where you decide",
   "titulo_curto": "The machine with agents",
   "minutos": 15,
-  "lead": "An AI agent is good at repetitive work: researching, drafting, checking, alerting, reporting. It is bad at deciding what is worth publishing. The inemaSEO method's machine keeps the two apart: the agents work in a line, and two gates stop everything until you approve.",
+  "lead": "An AI agent is good at repetitive work: researching, drafting, checking, alerting, reporting. It is bad at deciding what is worth publishing. The ARCKHÉSEO method's machine keeps the two apart: the agents work in a line, and two gates stop everything until you approve.",
   "objetivo": "build the researcher → observer line with two human gates and an AGENTS.md that says what the agent never does on its own.",
   "competencias": [
     "desenhar-linha-de-agentes",
@@ -135,7 +135,7 @@
           "sub": "the agent waits",
           "texto": [
             "A gate is not \"the agent tells you and keeps going.\" The agent stops, hands over what it did, and only continues after your yes.",
-            "At INEMA, the drafts for pillar pages 2 and 3 sat at gate 2 (about 3,150 and 2,450 words) and were only published on 9/24, after review."
+            "At ARCKHÉ, the drafts for pillar pages 2 and 3 sat at gate 2 (about 3,150 and 2,450 words) and were only published on 9/24, after review."
           ],
           "exemplo": {
             "rot": "A rule that works",
@@ -158,7 +158,7 @@
       "sub": "Copy the machine into the project README and the AGENTS.md into the root. Replace whatever is between the angle brackets.",
       "blocos": [
         {
-          "rot": "The machine (docs/METODO.md from inemaSEO)",
+          "rot": "The machine (docs/METODO.md from ARCKHÉSEO)",
           "icone": "camadas",
           "conteudo": "Human picks the topic of the month\n ├─ Researcher     → keyword list with score (autocomplete, Trends, Search Console, SERP)\n ├─ Opportunity    → 5–10 GO with the URL and the real asset that provides the first-hand data\n │   GATE 1: human approves the list\n ├─ Briefing       → intent, top 10 gaps, required first-hand data, internal links, link ladder\n ├─ Writer         → draft that reads the repository/the transcript of the real asset\n ├─ QA             → checklist (docs/CHECKLIST.md) + tests + link ladder\n │   GATE 2: human reviews (10–20 min per page)\n ├─ Publisher      → commit + push, notice to search engines, post-deploy check\n └─ Observer       → weekly export, what went up, what got stuck → back to GATE 1"
         },
@@ -286,13 +286,13 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "inemaSEO method: the machine with agents",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method: the machine with agents",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "camadas"
         },
         {
           "t": "Quality checklist (16 items)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         },
         {

@@ -57,7 +57,7 @@
       "sub": "Troque o endereço pelo seu site.",
       "blocos": [
         {"rot": "Raio-x só de leitura (auditoria.sh)", "icone": "terminal",
-         "conteudo": "git clone https://github.com/inematds/inemaseo-metodo.git\ncd inemaseo-metodo\ntools/auditoria.sh https://www.seusite.com /pagina-1/ /pagina-2/ > auditoria.txt"},
+         "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-metodo.git\ncd ARCKHÉseo-metodo\ntools/auditoria.sh https://www.seusite.com /pagina-1/ /pagina-2/ > auditoria.txt"},
         {"rot": "claude-seo (instalação manual e comandos)", "icone": "robo",
          "conteudo": "git clone https://github.com/AgriciDaniel/claude-seo.git\ncd claude-seo\nless install.sh        # leia antes de rodar\n./install.sh\n\nclaude                 # abre o Claude Code\n/seo audit https://www.seusite.com\n/seo technical https://www.seusite.com\n/seo geo https://www.seusite.com"},
         {"rot": "Pedido ao agente auditor", "icone": "chat",
@@ -66,7 +66,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Saída capturada (19/10/2026)", "html": "<pre>$ tools/auditoria.sh https://www.inema.club\n== Redirecionamentos\n  http://www.inema.club/ -&gt; 308 https://www.inema.club/\n  https://inema.club/ -&gt; 308 https://www.inema.club/\n  https://www.inema.club/ -&gt; 200\n== robots.txt\n  User-Agent: *\n  Allow: /\n\n  User-Agent: OAI-SearchBot\n  User-Agent: Claude-SearchBot\n  User-Agent: ClaudeBot\n  User-Agent: PerplexityBot\n  User-Agent: Googlebot\n  User-Agent: Bingbot\n  Allow: /\n\n  Host: https://www.inema.club\n  Sitemap: https://www.inema.club/sitemap.xml\n  Sitemap: https://www.inema.club/courses-sitemap.xml\n== Sitemaps\n  https://www.inema.club/sitemap.xml: 83 URLs, 60 anotações hreflang\n  https://www.inema.club/courses-sitemap.xml: 100 URLs, 0 anotações hreflang\n== llms.txt: 200\n== Páginas\n-- /  [200]\n   title:     Aprender Inteligência Artificial na prática | INEMA.club\n   canonical: https://www.inema.club/\n   hreflang:  hrefLang=\"en\" hrefLang=\"es\" hrefLang=\"pt-BR\" hrefLang=\"x-default\"\n   links internos no HTML: 27</pre><p>Trecho: o bloco de JSON-LD foi omitido.</p>"},
+          {"rot": "Saída capturada (19/10/2026)", "html": "<pre>$ tools/auditoria.sh https://www.ARCKHÉ AI\n== Redirecionamentos\n  http://www.ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://www.ARCKHÉ AI/ -&gt; 200\n== robots.txt\n  User-Agent: *\n  Allow: /\n\n  User-Agent: OAI-SearchBot\n  User-Agent: Claude-SearchBot\n  User-Agent: ClaudeBot\n  User-Agent: PerplexityBot\n  User-Agent: Googlebot\n  User-Agent: Bingbot\n  Allow: /\n\n  Host: https://www.ARCKHÉ AI\n  Sitemap: https://www.ARCKHÉ AI/sitemap.xml\n  Sitemap: https://www.ARCKHÉ AI/courses-sitemap.xml\n== Sitemaps\n  https://www.ARCKHÉ AI/sitemap.xml: 83 URLs, 60 anotações hreflang\n  https://www.ARCKHÉ AI/courses-sitemap.xml: 100 URLs, 0 anotações hreflang\n== llms.txt: 200\n== Páginas\n-- /  [200]\n   title:     Aprender Inteligência Artificial na prática | ARCKHÉ AI\n   canonical: https://www.ARCKHÉ AI/\n   hreflang:  hrefLang=\"en\" hrefLang=\"es\" hrefLang=\"pt-BR\" hrefLang=\"x-default\"\n   links internos no HTML: 27</pre><p>Trecho: o bloco de JSON-LD foi omitido.</p>"},
           {"rot": "O que o agente deve apontar", "html": "<ul><li><b>Redirecionamento</b>: http e sem www vão para um endereço só (308). Nada a fazer.</li><li><b>robots.txt</b>: ClaudeBot está no mesmo grupo dos robôs de busca, mas é robô de <b>treino</b>. Decidir por finalidade.</li><li><b>courses-sitemap</b>: 0 anotações hreflang. O agente aponta; você sabe o contexto (as fichas são só em português e a versão traduzida é outro site).</li><li><b>llms.txt 200</b>: [régua] opcional e barato, não é alavanca de citação.</li></ul>"}
         ]
       }
@@ -117,9 +117,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "auditoria.sh no método inemaSEO", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/auditoria.sh", "icone": "terminal"},
+        {"t": "auditoria.sh no método ARCKHÉSEO", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/auditoria.sh", "icone": "terminal"},
         {"t": "claude-seo (repositório original, MIT)", "href": "https://github.com/AgriciDaniel/claude-seo", "icone": "robo"},
-        {"t": "Guia do claude-seo em português (INEMA)", "href": "https://inematds.github.io/claude-seo/guia/", "icone": "lupa"}
+        {"t": "Guia do claude-seo em português (ARCKHÉ)", "href": "https://linnoff88-dev.github.io/ "icone": "lupa"}
       ]
     }
   ]

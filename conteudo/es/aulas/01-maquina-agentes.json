@@ -5,7 +5,7 @@
   "titulo": "La máquina con agentes: quién hace qué y dónde decides tú",
   "titulo_curto": "La máquina con agentes",
   "minutos": 15,
-  "lead": "El agente de IA es bueno en lo repetitivo: investigar, redactar borradores, revisar, avisar, informar. Es malo para decidir qué vale la pena publicar. La máquina del método inemaSEO separa las dos cosas: los agentes trabajan en línea, y dos compuertas lo detienen todo hasta que tú apruebes.",
+  "lead": "El agente de IA es bueno en lo repetitivo: investigar, redactar borradores, revisar, avisar, informar. Es malo para decidir qué vale la pena publicar. La máquina del método ARCKHÉSEO separa las dos cosas: los agentes trabajan en línea, y dos compuertas lo detienen todo hasta que tú apruebes.",
   "objetivo": "armar la línea investigador → observador con dos compuertas humanas y un AGENTS.md que dice qué nunca hace el agente por su cuenta.",
   "competencias": [
     "desenhar-linha-de-agentes",
@@ -135,7 +135,7 @@
           "sub": "el agente espera",
           "texto": [
             "Una compuerta no es \"el agente avisa y sigue\". El agente se detiene, entrega lo que hizo y solo continúa después de tu sí.",
-            "En INEMA, los borradores de los pilares 2 y 3 quedaron detenidos en la compuerta 2 (cerca de 3.150 y 2.450 palabras) y solo se publicaron el 24/09, después de la revisión."
+            "En ARCKHÉ, los borradores de los pilares 2 y 3 quedaron detenidos en la compuerta 2 (cerca de 3.150 y 2.450 palabras) y solo se publicaron el 24/09, después de la revisión."
           ],
           "exemplo": {
             "rot": "Regla que funciona",
@@ -158,7 +158,7 @@
       "sub": "Copia la máquina al README del proyecto y el AGENTS.md a la raíz. Cambia lo que está entre los signos de menor y mayor.",
       "blocos": [
         {
-          "rot": "La máquina (docs/METODO.md de inemaSEO)",
+          "rot": "La máquina (docs/METODO.md de ARCKHÉSEO)",
           "icone": "camadas",
           "conteudo": "El humano elige el tema del mes\n ├─ Investigador  → lista de palabras clave con score (autocomplete, Trends, Search Console, SERP)\n ├─ Oportunidad   → 5–10 GO con la URL y el activo real que da el dato propio\n │   GATE 1: el humano aprueba la lista\n ├─ Briefing      → intención, vacíos del top 10, dato propio obligatorio, enlaces internos, escalera\n ├─ Redactor      → borrador que lee el repositorio/la transcripción del activo real\n ├─ QA            → checklist (docs/CHECKLIST.md) + pruebas + escalera de enlaces\n │   GATE 2: el humano revisa (10–20 min por página)\n ├─ Publicador    → commit + push, aviso a los buscadores, verificación posdeploy\n └─ Observador    → export semanal, qué subió, qué se trabó → vuelve al GATE 1"
         },
@@ -286,13 +286,13 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "Método inemaSEO: la máquina con agentes",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO: la máquina con agentes",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "camadas"
         },
         {
           "t": "Checklist de calidad (16 ítems)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         },
         {

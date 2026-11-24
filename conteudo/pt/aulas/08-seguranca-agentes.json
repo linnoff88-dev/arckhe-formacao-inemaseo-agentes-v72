@@ -5,7 +5,7 @@
   "titulo": "O que deu errado com agentes e as regras de segurança",
   "titulo_curto": "Falhas e regras",
   "minutos": 20,
-  "lead": "Agente erra de jeitos previsíveis: afirma sem conferir, soma errado, quebra o que funcionava, usa a chave que encontrou. Cada falha real do projeto de SEO do INEMA virou uma linha no changelog de falhas e uma regra no AGENTS.md. Esta aula mostra as falhas, a menor correção de cada uma e fecha o curso com o seu plano.",
+  "lead": "Agente erra de jeitos previsíveis: afirma sem conferir, soma errado, quebra o que funcionava, usa a chave que encontrou. Cada falha real do projeto de SEO do ARCKHÉ virou uma linha no changelog de falhas e uma regra no AGENTS.md. Esta aula mostra as falhas, a menor correção de cada uma e fecha o curso com o seu plano.",
   "objetivo": "reconhecer as falhas reais de agentes em SEO e aplicar as regras: API só autorizada, segredo fora do repo, conferir antes de afirmar.",
   "competencias": ["registrar-falha-com-menor-correcao", "proteger-segredo-e-api", "exigir-conferencia-antes-de-afirmar"],
   "aprende": [
@@ -36,7 +36,7 @@
     },
     {
       "tipo": "passos",
-      "titulo": "As falhas reais do projeto de SEO do INEMA",
+      "titulo": "As falhas reais do projeto de SEO do ARCKHÉ",
       "sub": "Clique em cada passo. Todas estão no FALHAS.md do projeto.",
       "passos": [
         {"titulo": "Afirmou sem conferir", "sub": "23/09/2026",
@@ -54,7 +54,7 @@
       "titulo": "O changelog de falhas e a varredura de segredo",
       "sub": "Copie o FALHAS.md para a raiz do projeto. Rode a varredura antes de cada push.",
       "blocos": [
-        {"rot": "FALHAS.md (linhas reais do projeto de SEO do INEMA)", "icone": "arquivo",
+        {"rot": "FALHAS.md (linhas reais do projeto de SEO do ARCKHÉ)", "icone": "arquivo",
          "conteudo": "# FALHAS\n\n| data | o que quebrou | menor correção | prompt \\| infra |\n|---|---|---|---|\n| 2026-10-02 | IndexNow devolveu 403 SiteVerificationNotCompleted no 1º envio (chave recém-publicada) | reenviar após ~4 min | infra |\n| 2026-10-02 | /cursos/ virou \"só busca\" e as fichas perderam o único link interno renderizado no servidor | índice recolhido (details) com links simples abaixo da busca | prompt |\n| 2026-09-24 | export semanal somou impressões da marca por query+page (parte maior que o total) | somas pela dimensão query só | prompt |\n| 2026-09-23 | plano dizia \"sem Search Console\" (procurou só no código) | conferir DNS TXT antes de afirmar ausência | prompt |"},
         {"rot": "Segredo fora do repositório", "icone": "cadeado",
          "conteudo": "echo \".env\" >> .gitignore\ngit check-ignore -v .env          # confirma que o .env está ignorado\ngit grep -niIE \"(api[_-]?key|apikey|secret|token)[[:space:]]*[:=]\"   # procura valor de chave no que vai para o repo"}
@@ -70,7 +70,7 @@
     {
       "tipo": "simconversa",
       "titulo": "Simulação: o agente achou uma chave de API",
-      "sub": "Você é quem responde ao agente. A conversa é ficção; as regras vêm do método inemaSEO.",
+      "sub": "Você é quem responde ao agente. A conversa é ficção; as regras vêm do método ARCKHÉSEO.",
       "personagem": {"nome": "Agente de SEO", "papel": "simulação · agente no terminal do seu projeto"},
       "inicio": "abre",
       "falas": {
@@ -193,7 +193,7 @@
       "tipo": "gerador",
       "titulo": "Gere o seu plano com datas",
       "sub": "Escolha a data de início e quanto tempo você tem por semana.",
-      "curso": "inemaSEO 5 · Com Agentes",
+      "curso": "ARCKHÉSEO 5 · Com Agentes",
       "horas_padrao": 3,
       "degraus": [
         {"titulo": "Aula 1 · A máquina com agentes", "aula": "maquina-agentes"},
@@ -205,15 +205,15 @@
         {"titulo": "Aula 7 · Ferramentas abertas × pagas", "aula": "aberto-pago"},
         {"titulo": "Aula 8 · Falhas e regras", "aula": "seguranca-agentes"}
       ],
-      "txt": {"titulo": "Plano — inemaSEO 5 · Com Agentes", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e a regra que criei", "h": "h por semana", "exs": "exercícios"}
+      "txt": {"titulo": "Plano — ARCKHÉSEO 5 · Com Agentes", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e a regra que criei", "h": "h por semana", "exs": "exercícios"}
     },
     {
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "avisar_buscadores.sh (só URLs 200)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/avisar_buscadores.sh", "icone": "enviar"},
-        {"t": "Método inemaSEO: a máquina com agentes", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "camadas"},
-        {"t": "Curso 6: Profissional", "href": "https://inematds.github.io/formacao-inemaseo-profissional-v72/", "icone": "usuario"}
+        {"t": "avisar_buscadores.sh (só URLs 200)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/avisar_buscadores.sh", "icone": "enviar"},
+        {"t": "Método ARCKHÉSEO: a máquina com agentes", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "camadas"},
+        {"t": "Curso 6: Profissional", "href": "https://linnoff88-dev.github.io/ "icone": "usuario"}
       ]
     }
   ]

@@ -132,7 +132,7 @@
         {
           "rot": "Read-only X-ray (auditoria.sh)",
           "icone": "terminal",
-          "conteudo": "git clone https://github.com/inematds/inemaseo-metodo.git\ncd inemaseo-metodo\ntools/auditoria.sh https://www.seusite.com /pagina-1/ /pagina-2/ > auditoria.txt"
+          "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-metodo.git\ncd ARCKHÉseo-metodo\ntools/auditoria.sh https://www.seusite.com /pagina-1/ /pagina-2/ > auditoria.txt"
         },
         {
           "rot": "claude-seo (manual install and commands)",
@@ -150,7 +150,7 @@
         "abas": [
           {
             "rot": "Captured output (10/19/2026)",
-            "html": "<pre>$ tools/auditoria.sh https://www.inema.club\n== Redirecionamentos\n  http://www.inema.club/ -&gt; 308 https://www.inema.club/\n  https://inema.club/ -&gt; 308 https://www.inema.club/\n  https://www.inema.club/ -&gt; 200\n== robots.txt\n  User-Agent: *\n  Allow: /\n\n  User-Agent: OAI-SearchBot\n  User-Agent: Claude-SearchBot\n  User-Agent: ClaudeBot\n  User-Agent: PerplexityBot\n  User-Agent: Googlebot\n  User-Agent: Bingbot\n  Allow: /\n\n  Host: https://www.inema.club\n  Sitemap: https://www.inema.club/sitemap.xml\n  Sitemap: https://www.inema.club/courses-sitemap.xml\n== Sitemaps\n  https://www.inema.club/sitemap.xml: 83 URLs, 60 anotações hreflang\n  https://www.inema.club/courses-sitemap.xml: 100 URLs, 0 anotações hreflang\n== llms.txt: 200\n== Páginas\n-- /  [200]\n   title:     Aprender Inteligência Artificial na prática | INEMA.club\n   canonical: https://www.inema.club/\n   hreflang:  hrefLang=\"en\" hrefLang=\"es\" hrefLang=\"pt-BR\" hrefLang=\"x-default\"\n   links internos no HTML: 27</pre><p>Excerpt: the JSON-LD block was omitted.</p>"
+            "html": "<pre>$ tools/auditoria.sh https://www.ARCKHÉ AI\n== Redirecionamentos\n  http://www.ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://www.ARCKHÉ AI/ -&gt; 200\n== robots.txt\n  User-Agent: *\n  Allow: /\n\n  User-Agent: OAI-SearchBot\n  User-Agent: Claude-SearchBot\n  User-Agent: ClaudeBot\n  User-Agent: PerplexityBot\n  User-Agent: Googlebot\n  User-Agent: Bingbot\n  Allow: /\n\n  Host: https://www.ARCKHÉ AI\n  Sitemap: https://www.ARCKHÉ AI/sitemap.xml\n  Sitemap: https://www.ARCKHÉ AI/courses-sitemap.xml\n== Sitemaps\n  https://www.ARCKHÉ AI/sitemap.xml: 83 URLs, 60 anotações hreflang\n  https://www.ARCKHÉ AI/courses-sitemap.xml: 100 URLs, 0 anotações hreflang\n== llms.txt: 200\n== Páginas\n-- /  [200]\n   title:     Aprender Inteligência Artificial na prática | ARCKHÉ AI\n   canonical: https://www.ARCKHÉ AI/\n   hreflang:  hrefLang=\"en\" hrefLang=\"es\" hrefLang=\"pt-BR\" hrefLang=\"x-default\"\n   links internos no HTML: 27</pre><p>Excerpt: the JSON-LD block was omitted.</p>"
           },
           {
             "rot": "What the agent should point out",
@@ -263,8 +263,8 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "auditoria.sh in the inemaSEO method",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/auditoria.sh",
+          "t": "auditoria.sh in the ARCKHÉSEO method",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/auditoria.sh",
           "icone": "terminal"
         },
         {
@@ -273,8 +273,8 @@
           "icone": "robo"
         },
         {
-          "t": "claude-seo guide in Portuguese (INEMA)",
-          "href": "https://inematds.github.io/claude-seo/guia/",
+          "t": "claude-seo guide in Portuguese (ARCKHÉ)",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "lupa"
         }
       ]

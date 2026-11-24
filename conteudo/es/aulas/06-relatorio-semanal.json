@@ -23,7 +23,7 @@
       "t": "El pedido al agente: tres propuestas, cada una con evidencia"
     },
     {
-      "t": "Leer una semana real de INEMA"
+      "t": "Leer una semana real de ARCKHÉ"
     }
   ],
   "hero_alt": "Dueña de un pequeño negocio lee con un bolígrafo en la mano un informe impreso con gráficos simples, en una mesa con café.",
@@ -79,14 +79,14 @@
     },
     {
       "tipo": "passos",
-      "titulo": "Cómo INEMA ejecuta el observador",
+      "titulo": "Cómo ARCKHÉ ejecuta el observador",
       "sub": "Toca cada paso.",
       "passos": [
         {
           "titulo": "El script",
           "sub": "una ronda por semana",
           "texto": [
-            "En el proyecto de SEO de INEMA, un script ejecuta el export sin marca, inspecciona las URLs clave, lee las posiciones de las consultas objetivo y escribe el informe comparado con la semana anterior. Con la opción sin API, solo rearma el informe con lo que ya está guardado.",
+            "En el proyecto de SEO de ARCKHÉ, un script ejecuta el export sin marca, inspecciona las URLs clave, lee las posiciones de las consultas objetivo y escribe el informe comparado con la semana anterior. Con la opción sin API, solo rearma el informe con lo que ya está guardado.",
             "La versión pública del export es el gsc_semanal.py del método; el informe alrededor de él cabe en un script corto que el agente puede armar por ti."
           ]
         },
@@ -110,7 +110,7 @@
           "titulo": "Una semana real",
           "sub": "05 a 11/10/2026",
           "texto": [
-            "inema.club: 157 impresiones sin marca en 51 consultas, aún con 0 clics sin marca. inema.pro: los 2 primeros clics sin marca, traídos por \"curso jev\". Indexadas: 13 de 14 URLs clave; falta /eventos/.",
+            "ARCKHÉ AI: 157 impresiones sin marca en 51 consultas, aún con 0 clics sin marca. ARCKHÉ.pro: los 2 primeros clics sin marca, traídos por \"curso jev\". Indexadas: 13 de 14 URLs clave; falta /eventos/.",
             "La página en español, indexada el 03/10, ya aparecía en consultas como \"aprender ia\" y \"cómo aprender ia\", en las posiciones 29 a 61."
           ]
         }
@@ -122,7 +122,7 @@
       "sub": "El gsc_semanal.py necesita tu credencial de Search Console (gratuita, ver el encabezado del script).",
       "blocos": [
         {
-          "rot": "Export semanal sin marca (público, método inemaSEO)",
+          "rot": "Export semanal sin marca (público, método ARCKHÉSEO)",
           "icone": "terminal",
           "conteudo": "export GSC_SITES=\"sc-domain:tusitio.com\"\nexport GSC_MARCA=\"tusitio|tu nombre|error común de tipeo\"\nexport GSC_QUOTA_PROJ=\"<tu proyecto en Google Cloud>\"\npython3 tools/gsc_semanal.py --dias 7 --saida dados/gsc"
         },
@@ -142,11 +142,11 @@
         "abas": [
           {
             "rot": "Reporte del 05 al 11/10/2026",
-            "html": "<pre># Relatório semanal de SEO — semana até 2026-10-11\n\nGerado em 2026-10-13 por `scripts/gsc_relatorio_semanal.py`.\n\n## Totais (cliques / impressões)\n\n| site       | total     | marca    | sem marca | consultas sem marca | vs semana anterior (impr. sem marca) |\n| inema.club | 114 / 702 | 87 / 238 | 0 / 157   | 51                  | ▲ +110 |\n| inema.pro  | 11 / 761  | 5 / 116  | 2 / 293   | 52                  | ▲ +279 |\n\n## Indexação das URLs-chave (inspeção de 2026-10-13)\n| /eventos/ | URL is unknown to Google | - | = |\n\nIndexadas: 13 de 14.</pre><p>Fragmento del reporte real; se omitieron las tablas de consultas.</p>"
+            "html": "<pre># Relatório semanal de SEO — semana até 2026-10-11\n\nGerado em 2026-10-13 por `scripts/gsc_relatorio_semanal.py`.\n\n## Totais (cliques / impressões)\n\n| site       | total     | marca    | sem marca | consultas sem marca | vs semana anterior (impr. sem marca) |\n| ARCKHÉ AI | 114 / 702 | 87 / 238 | 0 / 157   | 51                  | ▲ +110 |\n| ARCKHÉ.pro  | 11 / 761  | 5 / 116  | 2 / 293   | 52                  | ▲ +279 |\n\n## Indexação das URLs-chave (inspeção de 2026-10-13)\n| /eventos/ | URL is unknown to Google | - | = |\n\nIndexadas: 13 de 14.</pre><p>Fragmento del reporte real; se omitieron las tablas de consultas.</p>"
           },
           {
             "rot": "Tres propuestas posibles",
-            "html": "<ol><li><b>Indexación</b>: /eventos/ sigue desconocida para Google. Pide la indexación en el panel y revisa si alguna página indexada enlaza a ella.</li><li><b>Español</b>: impresiones sin marca en consultas en español en la página ES. Revisa el título y la descripción en español para esas consultas.</li><li><b>inema.pro</b>: 2 clics sin marca venidos de \"curso jev\". Revisa si existe una página dueña para esa consulta.</li></ol><p>Ilustración de cómo debe responder el agente: cada propuesta señala una línea del reporte.</p>"
+            "html": "<ol><li><b>Indexación</b>: /eventos/ sigue desconocida para Google. Pide la indexación en el panel y revisa si alguna página indexada enlaza a ella.</li><li><b>Español</b>: impresiones sin marca en consultas en español en la página ES. Revisa el título y la descripción en español para esas consultas.</li><li><b>ARCKHÉ.pro</b>: 2 clics sin marca venidos de \"curso jev\". Revisa si existe una página dueña para esa consulta.</li></ol><p>Ilustración de cómo debe responder el agente: cada propuesta señala una línea del reporte.</p>"
           }
         ]
       }
@@ -191,7 +191,7 @@
           "cert": true
         },
         {
-          "p": "En la semana del 05 al 11/10, inema.club tuvo 157 impresiones sin marca y ¿cuántos clics sin marca?",
+          "p": "En la semana del 05 al 11/10, ARCKHÉ AI tuvo 157 impresiones sin marca y ¿cuántos clics sin marca?",
           "opcoes": [
             "157.",
             "51.",
@@ -199,7 +199,7 @@
             "114."
           ],
           "certa": 2,
-          "explica": "Las impresiones sin marca crecieron, pero los clics sin marca del club seguían en 0. Los 2 primeros clics sin marca aparecieron en inema.pro.",
+          "explica": "Las impresiones sin marca crecieron, pero los clics sin marca del club seguían en 0. Los 2 primeros clics sin marca aparecieron en ARCKHÉ.pro.",
           "ref": "codigo"
         },
         {
@@ -255,18 +255,18 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "gsc_semanal.py en el método inemaSEO",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_semanal.py",
+          "t": "gsc_semanal.py en el método ARCKHÉSEO",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_semanal.py",
           "icone": "grafico"
         },
         {
           "t": "Curso 3: Medición",
-          "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/es/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "alvo"
         },
         {
-          "t": "inemaSEO sistemas: historial de Search Console más allá de 16 meses",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉSEO sistemas: historial de Search Console más allá de 16 meses",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "terminal"
         }
       ]

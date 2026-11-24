@@ -31,7 +31,7 @@
          "itens": [{"icone": "arquivo", "t": "--apply grava o bloco"}, {"icone": "git", "t": "--commit também commita e faz push"}],
          "detalhe": "--apply grava no arquivo; --commit também commita e faz push. Push é publicação: passe pelo portão antes de usar --commit."},
         {"icone": "check", "titulo": "Amostra no ar", "sub": "confere depois",
-         "detalhe": "Abra algumas páginas publicadas e confirme o bloco no HTML. No INEMA, o lote de 05/10 foi conferido no GitHub Pages por amostra: 8 de 8."}
+         "detalhe": "Abra algumas páginas publicadas e confirme o bloco no HTML. No ARCKHÉ, o lote de 05/10 foi conferido no GitHub Pages por amostra: 8 de 8."}
       ],
       "legenda": "Três proteções: dry-run, marcador e pulo de repositório sujo."
     },
@@ -45,9 +45,9 @@
         {"titulo": "Marcador", "sub": "não duplica",
          "texto": ["O bloco gravado vai entre dois comentários com o marcador link-de-volta:v1. Antes de gravar, o script procura o marcador: se já existe, responde \"OK: já tinha\".", "É o que deixa rodar de novo depois de uma falha sem criar dois links na mesma página."]},
         {"titulo": "Repositório sujo", "sub": "pula e avisa",
-         "texto": ["Se o repositório tem alteração não commitada, o script pula. Quase sempre é outra sessão (sua ou de outro agente) trabalhando nele.", "Pula também o repositório fora da branch esperada e o que não tem HTML. No INEMA, repositórios pulados por árvore suja ficaram para a rodada seguinte."]},
+         "texto": ["Se o repositório tem alteração não commitada, o script pula. Quase sempre é outra sessão (sua ou de outro agente) trabalhando nele.", "Pula também o repositório fora da branch esperada e o que não tem HTML. No ARCKHÉ, repositórios pulados por árvore suja ficaram para a rodada seguinte."]},
         {"titulo": "Onde o link vai", "sub": "o arquivo certo",
-         "texto": ["Se o index.html é só um redirecionamento (meta refresh), o link vai na página de destino. Se o HTML é gerado por script, o link vai no gerador, senão some no próximo build.", "No INEMA: 35 de 40 repositórios em 24/09, mais 25 em 02/10 e mais 21 em 05/10."]}
+         "texto": ["Se o index.html é só um redirecionamento (meta refresh), o link vai na página de destino. Se o HTML é gerado por script, o link vai no gerador, senão some no próximo build.", "No ARCKHÉ: 35 de 40 repositórios em 24/09, mais 25 em 02/10 e mais 21 em 05/10."]}
       ]
     },
     {
@@ -124,7 +124,7 @@
          "certa": 1, "explica": "Dry-run é o padrão. Gravar exige --apply; publicar exige --commit. O erro comum é inverter: script que grava por padrão e pede opção para simular.", "ref": "diagrama", "cert": true},
         {"p": "Um repositório aparece como \"PULA: alterações não commitadas\". O que fazer?",
          "opcoes": ["Fazer stash e rodar de novo.", "Commitar tudo o que está lá.", "Deixar para depois: provavelmente é outra sessão mexendo nele.", "Apagar as alterações."],
-         "certa": 2, "explica": "Alteração não salva é trabalho de alguém. Forçar mistura o seu commit com o dela. No INEMA, os pulados ficaram para a rodada seguinte.", "ref": "passos"},
+         "certa": 2, "explica": "Alteração não salva é trabalho de alguém. Forçar mistura o seu commit com o dela. No ARCKHÉ, os pulados ficaram para a rodada seguinte.", "ref": "passos"},
         {"p": "Para que serve o marcador link-de-volta:v1?",
          "opcoes": ["Para o Google contar o link.", "Para rodar de novo sem duplicar o bloco.", "Para esconder o link.", "Para o script achar o rodapé."],
          "certa": 1, "explica": "Antes de gravar, o script procura o marcador. Se já existe, responde \"OK: já tinha\". É isso que torna a retomada segura.", "ref": "simfila"},
@@ -147,8 +147,8 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "link_de_volta.py no método inemaSEO", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/link_de_volta.py", "icone": "terminal"},
-        {"t": "Método inemaSEO, etapa 8: autoridade que você já tem", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "camadas"}
+        {"t": "link_de_volta.py no método ARCKHÉSEO", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/link_de_volta.py", "icone": "terminal"},
+        {"t": "Método ARCKHÉSEO, etapa 8: autoridade que você já tem", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "camadas"}
       ]
     }
   ]

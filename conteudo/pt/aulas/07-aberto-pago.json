@@ -12,7 +12,7 @@
     {"t": "Função por função: de onde vem o dado"},
     {"t": "O que não existe de graça (e não adianta procurar)"},
     {"t": "open-seo, DataForSEO, Firecrawl e Apify: o que cada um vende"},
-    {"t": "Onde aprofundar: o repositório inemaseo-sistemas e o curso 7"}
+    {"t": "Onde aprofundar: o repositório ARCKHÉseo-sistemas e o curso 7"}
   ],
   "hero_alt": "Marceneiro avalia, na bancada, entre ferramentas manuais organizadas na parede e uma máquina profissional grande.",
   "secoes": [
@@ -47,7 +47,7 @@
         {"titulo": "Firecrawl e Apify", "sub": "coleta paga",
          "texto": ["Firecrawl transforma páginas em texto para LLM (map, crawl, scrape, search): plano grátis com 1.000 créditos por mês, Hobby a US$ 16 no plano anual. Apify roda robôs de coleta prontos: grátis com US$ 5 de crédito, Starter a US$ 19 por mês.", "Robô de terceiro que raspa o Google viola os termos de uso do Google, e o risco é de quem roda o robô."]},
         {"titulo": "Abertos para coleta", "sub": "sem pagar",
-         "texto": ["Para o seu próprio site: crawl4ai (Apache-2.0), Scrapy e Crawlee rastreiam e convertem em texto. Scrapling (BSD-3) contorna proteções anti-robô; use só no seu site ou com autorização.", "As ferramentas abertas do INEMA para o seu site estão no repositório inemaseo-sistemas, ensinadas no curso 7."]}
+         "texto": ["Para o seu próprio site: crawl4ai (Apache-2.0), Scrapy e Crawlee rastreiam e convertem em texto. Scrapling (BSD-3) contorna proteções anti-robô; use só no seu site ou com autorização.", "As ferramentas abertas do ARCKHÉ para o seu site estão no repositório ARCKHÉseo-sistemas, ensinadas no curso 7."]}
       ]
     },
     {
@@ -114,8 +114,8 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "inemaSEO sistemas: ferramentas abertas para o seu site", "href": "https://github.com/inematds/inemaseo-sistemas", "icone": "terminal"},
-        {"t": "Curso 7: Sistemas, monte o seu Semrush aberto", "href": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/", "icone": "camadas"},
+        {"t": "ARCKHÉSEO sistemas: ferramentas abertas para o seu site", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas", "icone": "terminal"},
+        {"t": "Curso 7: Sistemas, monte o seu Semrush aberto", "href": "https://linnoff88-dev.github.io/ "icone": "camadas"},
         {"t": "open-seo (MIT, sobre DataForSEO)", "href": "https://github.com/every-app/open-seo", "icone": "robo"},
         {"t": "Firecrawl: preços", "href": "https://www.firecrawl.dev/pricing", "icone": "nuvem"},
         {"t": "Apify: preços", "href": "https://apify.com/pricing", "icone": "nuvem"}

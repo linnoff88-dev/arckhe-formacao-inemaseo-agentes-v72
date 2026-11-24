@@ -5,7 +5,7 @@
   "titulo": "Qué salió mal con los agentes y las reglas de seguridad",
   "titulo_curto": "Fallas y reglas",
   "minutos": 20,
-  "lead": "El agente se equivoca de maneras previsibles: afirma sin comprobar, suma mal, rompe lo que funcionaba, usa la clave que encontró. Cada falla real del proyecto de SEO de INEMA se volvió una línea en el registro de fallas y una regla en el AGENTS.md. Esta lección muestra las fallas, la corrección mínima de cada una y cierra el curso con tu plan.",
+  "lead": "El agente se equivoca de maneras previsibles: afirma sin comprobar, suma mal, rompe lo que funcionaba, usa la clave que encontró. Cada falla real del proyecto de SEO de ARCKHÉ se volvió una línea en el registro de fallas y una regla en el AGENTS.md. Esta lección muestra las fallas, la corrección mínima de cada una y cierra el curso con tu plan.",
   "objetivo": "reconocer las fallas reales de los agentes en SEO y aplicar las reglas: API solo con autorización, secreto fuera del repo, comprobar antes de afirmar.",
   "competencias": [
     "registrar-falha-com-menor-correcao",
@@ -74,7 +74,7 @@
     },
     {
       "tipo": "passos",
-      "titulo": "Las fallas reales del proyecto de SEO de INEMA",
+      "titulo": "Las fallas reales del proyecto de SEO de ARCKHÉ",
       "sub": "Haz clic en cada paso. Todas están en el FALHAS.md del proyecto.",
       "passos": [
         {
@@ -117,7 +117,7 @@
       "sub": "Copia el FALHAS.md a la raíz del proyecto. Ejecuta el barrido antes de cada push.",
       "blocos": [
         {
-          "rot": "FALHAS.md (líneas reales del proyecto de SEO de INEMA)",
+          "rot": "FALHAS.md (líneas reales del proyecto de SEO de ARCKHÉ)",
           "icone": "arquivo",
           "conteudo": "# FALHAS\n\n| fecha | qué se rompió | corrección mínima | prompt \\| infra |\n|---|---|---|---|\n| 2026-10-02 | IndexNow devolvió 403 SiteVerificationNotCompleted en el 1.er envío (clave recién publicada) | reenviar después de ~4 min | infra |\n| 2026-10-02 | /cursos/ pasó a ser \"solo búsqueda\" y las fichas perdieron el único enlace interno renderizado en el servidor | índice colapsado (details) con enlaces simples debajo de la búsqueda | prompt |\n| 2026-09-24 | la exportación semanal sumó las impresiones de la marca por query+page (la parte quedó mayor que el total) | sumas solo por la dimensión query | prompt |\n| 2026-09-23 | el plan decía \"sin Search Console\" (buscó solo en el código) | revisar el DNS TXT antes de afirmar la ausencia | prompt |"
         },
@@ -144,7 +144,7 @@
     {
       "tipo": "simconversa",
       "titulo": "Simulación: el agente encontró una clave de API",
-      "sub": "Tú eres quien responde al agente. La conversación es ficción; las reglas vienen del método inemaSEO.",
+      "sub": "Tú eres quien responde al agente. La conversación es ficción; las reglas vienen del método ARCKHÉSEO.",
       "personagem": {
         "nome": "Agente de SEO",
         "papel": "simulación · agente en la terminal de tu proyecto"
@@ -410,7 +410,7 @@
       "tipo": "gerador",
       "titulo": "Genera tu plan con fechas",
       "sub": "Elige la fecha de inicio y cuánto tiempo tienes por semana.",
-      "curso": "inemaSEO 5 · Con Agentes",
+      "curso": "ARCKHÉSEO 5 · Con Agentes",
       "horas_padrao": 3,
       "degraus": [
         {
@@ -447,7 +447,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 5 · Con Agentes",
+        "titulo": "Plan — ARCKHÉSEO 5 · Con Agentes",
         "inicio": "Inicio",
         "ritmo": "Ritmo",
         "termino": "Fin previsto",
@@ -465,17 +465,17 @@
       "links": [
         {
           "t": "avisar_buscadores.sh (solo URLs 200)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/avisar_buscadores.sh",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/avisar_buscadores.sh",
           "icone": "enviar"
         },
         {
-          "t": "Método inemaSEO: la máquina con agentes",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO: la máquina con agentes",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "camadas"
         },
         {
           "t": "Curso 6: Profesional",
-          "href": "https://inematds.github.io/formacao-inemaseo-profissional-v72/es/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "usuario"
         }
       ]

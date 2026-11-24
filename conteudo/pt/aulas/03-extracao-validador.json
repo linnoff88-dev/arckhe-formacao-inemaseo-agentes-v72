@@ -37,11 +37,11 @@
     },
     {
       "tipo": "passos",
-      "titulo": "Como o INEMA faz em lote",
+      "titulo": "Como o ARCKHÉ faz em lote",
       "sub": "Clique em cada passo.",
       "passos": [
         {"titulo": "A chamada", "sub": "codex exec",
-         "texto": ["O gerador de textos de notícias do INEMA chama o Codex com o pedido pela entrada padrão, sandbox só de leitura, sessão efêmera e saída num arquivo. Feche a entrada depois de mandar o pedido: sem isso o processo fica esperando.", "No Claude Code, o mesmo pedido roda na pasta do projeto, com o AGENTS.md proibindo escrita fora da pasta de saída."]},
+         "texto": ["O gerador de textos de notícias do ARCKHÉ chama o Codex com o pedido pela entrada padrão, sandbox só de leitura, sessão efêmera e saída num arquivo. Feche a entrada depois de mandar o pedido: sem isso o processo fica esperando.", "No Claude Code, o mesmo pedido roda na pasta do projeto, com o AGENTS.md proibindo escrita fora da pasta de saída."]},
         {"titulo": "O primeiro JSON", "sub": "uma falha real",
          "texto": ["Em 02/10/2026, respostas do Codex com o JSON duplicado quebraram a leitura do lote. A menor correção foi ler só o primeiro objeto completo (a função primeiroJson).", "Não foi trocar de modelo nem reescrever o gerador: uma proteção de dez linhas."]},
         {"titulo": "Descartar", "sub": "não consertar",
@@ -59,7 +59,7 @@
          "conteudo": "codex exec --skip-git-repo-check --ephemeral --sandbox read-only -C \"$PWD\" -o saida.txt - < pedido.txt\nnode valida-ficha.mjs fonte.txt saida.txt"},
         {"rot": "valida-ficha.mjs (modelo)", "icone": "arquivo",
          "conteudo": "// passa cada item da ficha pela trava (usa validar_extracao.mjs como biblioteca)\nimport fs from 'node:fs'\nimport { apoiada, numerosNaFonte, tituloNaFonte } from './validar_extracao.mjs'\nconst [fonteArq, fichaArq] = process.argv.slice(2)\nconst fonte = fs.readFileSync(fonteArq, 'utf8')\nconst ficha = JSON.parse(fs.readFileSync(fichaArq, 'utf8'))\nlet validos = 0\nfor (const m of ficha.estrutura || []) {\n  const ok = tituloNaFonte(m.titulo, fonte) && numerosNaFonte(m.detalhe || '', fonte)\n  console.log(`${ok ? '✓' : '✗ descarta'}  módulo: ${m.titulo}`)\n  if (ok) validos++\n}\nfor (const campo of ['aprende', 'publico', 'constroi']) {\n  for (const f of ficha[campo] || []) {\n    const ok = apoiada(f, fonte) && numerosNaFonte(f, fonte)\n    console.log(`${ok ? '✓' : '✗ descarta'}  ${campo}: ${f}`)\n  }\n}\nconsole.log(validos >= 3 ? `ficha enriquecida (${validos} módulos válidos)` : `não publica como enriquecida (${validos} módulos válidos)`)"},
-        {"rot": "primeiroJson (do gerador de textos do INEMA)", "icone": "chip",
+        {"rot": "primeiroJson (do gerador de textos do ARCKHÉ)", "icone": "chip",
          "conteudo": "function primeiroJson(txt) {\n  const ini = txt.indexOf('{')\n  let prof = 0, str = false, esc = false\n  for (let i = ini; i < txt.length; i++) {\n    const c = txt[i]\n    if (str) { if (esc) esc = false; else if (c === '\\\\') esc = true; else if (c === '\"') str = false; continue }\n    if (c === '\"') str = true\n    else if (c === '{') prof++\n    else if (c === '}' && --prof === 0) return JSON.parse(txt.slice(ini, i + 1))\n  }\n  throw new Error('JSON incompleto')\n}"}
       ],
       "saida": {
@@ -116,9 +116,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "validar_extracao.mjs (trava anti-invenção)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/validar_extracao.mjs", "icone": "portao"},
-        {"t": "Prompt de ficha extrativa", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/prompt-ficha-extrativa.md", "icone": "chat"},
-        {"t": "Curso 2, aula 5: fichas com dado real", "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/aulas/fichas-dado-real/", "icone": "arquivo"}
+        {"t": "validar_extracao.mjs (trava anti-invenção)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/validar_extracao.mjs", "icone": "portao"},
+        {"t": "Prompt de ficha extrativa", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/prompt-ficha-extrativa.md", "icone": "chat"},
+        {"t": "Curso 2, aula 5: fichas com dado real", "href": "https://linnoff88-dev.github.io/ "icone": "arquivo"}
       ]
     }
   ]

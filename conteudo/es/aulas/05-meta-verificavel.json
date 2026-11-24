@@ -93,7 +93,7 @@
           "sub": "cada no baja el nivel",
           "texto": [
             "¿Se puede comprobar con un comando? ¿La respuesta es sí o no? ¿Es imposible cumplir sin hacer el trabajo? ¿La prueba aparece en la salida? ¿Función, regresión y límite están cubiertos?",
-            "Son las preguntas de la plantilla goal.md del kit Execução Longa (kit de ejecución larga) (abierto, de INEMA)."
+            "Son las preguntas de la plantilla goal.md del kit Execução Longa (kit de ejecución larga) (abierto, de ARCKHÉ)."
           ]
         },
         {
@@ -101,7 +101,7 @@
           "sub": "función, regresión, límite",
           "texto": [
             "Función: la página hace lo que debía (un H1, canónico correcto, JSON-LD presente). Regresión: el resto del sitio no se rompió (pruebas y build). Límite: el agente no tocó donde no debía.",
-            "En el portal de INEMA, la regla es ejecutar las pruebas y el build antes del push: el main ya se rompió por causa de una traducción."
+            "En el portal de ARCKHÉ, la regla es ejecutar las pruebas y el build antes del push: el main ya se rompió por causa de una traducción."
           ]
         },
         {
@@ -257,12 +257,12 @@
       "links": [
         {
           "t": "Kit Execução Longa: goal.md y reglas de parada",
-          "href": "https://inematds.github.io/execucao-longa/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "relogio"
         },
         {
-          "t": "Checklist de calidad de inemaSEO",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "t": "Checklist de calidad de ARCKHÉSEO",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         }
       ]

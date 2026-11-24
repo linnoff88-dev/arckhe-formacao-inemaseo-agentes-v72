@@ -5,7 +5,7 @@
   "titulo": "A máquina com agentes: quem faz o quê e onde você decide",
   "titulo_curto": "A máquina com agentes",
   "minutos": 15,
-  "lead": "Agente de IA é bom no repetitivo: pesquisar, rascunhar, conferir, avisar, relatar. É ruim em decidir o que vale publicar. A máquina do método inemaSEO separa as duas coisas: os agentes trabalham em linha, e dois portões param tudo até você aprovar.",
+  "lead": "Agente de IA é bom no repetitivo: pesquisar, rascunhar, conferir, avisar, relatar. É ruim em decidir o que vale publicar. A máquina do método ARCKHÉSEO separa as duas coisas: os agentes trabalham em linha, e dois portões param tudo até você aprovar.",
   "objetivo": "montar a linha pesquisador → observador com dois portões humanos e um AGENTS.md que diz o que o agente nunca faz sozinho.",
   "competencias": ["desenhar-linha-de-agentes", "definir-portoes-humanos", "escrever-agents-md"],
   "aprende": [
@@ -50,7 +50,7 @@
         {"titulo": "Um agente, várias funções", "sub": "não precisa de sete robôs",
          "texto": ["As sete funções podem ser o mesmo agente, com pedidos diferentes. O que importa é a ordem e os portões, não quantos programas rodam.", "Comece com uma função só (o auditor, na aula 2) e acrescente as outras quando a anterior estiver confiável."]},
         {"titulo": "O portão é parada de verdade", "sub": "o agente espera",
-         "texto": ["Portão não é \"o agente avisa e segue\". O agente para, entrega o que fez e só continua depois do seu sim.", "No INEMA, os rascunhos dos pilares 2 e 3 ficaram parados no portão 2 (cerca de 3.150 e 2.450 palavras) e só foram publicados em 24/09, depois da revisão."],
+         "texto": ["Portão não é \"o agente avisa e segue\". O agente para, entrega o que fez e só continua depois do seu sim.", "No ARCKHÉ, os rascunhos dos pilares 2 e 3 ficaram parados no portão 2 (cerca de 3.150 e 2.450 palavras) e só foram publicados em 24/09, depois da revisão."],
          "exemplo": {"rot": "Regra que funciona", "texto": "Tudo que sai do site (push, aviso a buscador, e-mail) ou que gasta dinheiro passa por um portão."}},
         {"titulo": "O AGENTS.md", "sub": "regras escritas, lidas sempre",
          "texto": ["Claude Code e Codex leem um arquivo de instruções na raiz do projeto antes de trabalhar (o Claude Code lê o CLAUDE.md; o Codex, o AGENTS.md). Escreva ali o que o agente faz, o que ele nunca faz sozinho e como trabalha em lote.", "Cada falha corrigida vira uma regra nova nesse arquivo. A aula 8 mostra as falhas reais que viraram regra."]}
@@ -61,7 +61,7 @@
       "titulo": "A máquina e o AGENTS.md do seu projeto de SEO",
       "sub": "Copie a máquina para o README do projeto e o AGENTS.md para a raiz. Troque o que está entre os sinais de menor e maior.",
       "blocos": [
-        {"rot": "A máquina (docs/METODO.md do inemaSEO)", "icone": "camadas",
+        {"rot": "A máquina (docs/METODO.md do ARCKHÉSEO)", "icone": "camadas",
          "conteudo": "Humano escolhe o tema do mês\n ├─ Pesquisador   → lista de palavras-chave com score (autocomplete, Trends, Search Console, SERP)\n ├─ Oportunidade  → 5–10 GO com a URL e o ativo real que dá o dado próprio\n │   GATE 1: humano aprova a lista\n ├─ Briefing      → intenção, lacunas do top 10, dado próprio obrigatório, links internos, escada\n ├─ Redator       → rascunho que lê o repositório/a transcrição do ativo real\n ├─ QA            → checklist (docs/CHECKLIST.md) + testes + escada de links\n │   GATE 2: humano revisa (10–20 min por página)\n ├─ Publicador    → commit + push, aviso aos buscadores, checagem pós-deploy\n └─ Observador    → export semanal, o que subiu, o que travou → volta ao GATE 1"},
         {"rot": "AGENTS.md (modelo; no Claude Code, o mesmo texto vai no CLAUDE.md)", "icone": "arquivo",
          "conteudo": "# AGENTS.md — SEO de <seusite.com>\n\n## O que você faz\n- Pesquisa, briefing, rascunho, QA (docs/CHECKLIST.md) e relatório semanal.\n- Tudo pela assinatura (Claude Code ou Codex). Nada de API sem autorização.\n\n## O que você nunca faz sozinho (pare e pergunte)\n- Chamar API (Search Console, Bing, IndexNow, modelos) sem autorização escrita para aquela finalidade.\n- Commit + push de página nova: só depois do PORTÃO 2 (eu reviso cada página).\n- Apagar página, arquivo ou URL que já foi indexada.\n- Afirmar que algo não existe sem conferir (ex.: Search Console: olhe o TXT do DNS antes).\n\n## Como você trabalha\n- Lote: dry-run primeiro; marcador para não duplicar; pule repositório com alteração não commitada.\n- Texto a partir de fonte: só fatos da fonte. Item que falha na trava é descartado, não consertado.\n- Outra sessão pode mexer no mesmo repo: commite só os seus arquivos; git pull --rebase --autostash antes do push.\n- Segredo fica no .env (que está no .gitignore). Aqui vai só o NOME da variável.\n- Falha corrigida vira uma linha em FALHAS.md: data | o que quebrou | menor correção | prompt ou infra."}
@@ -120,8 +120,8 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Método inemaSEO: a máquina com agentes", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "camadas"},
-        {"t": "Checklist de qualidade (16 itens)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"},
+        {"t": "Método ARCKHÉSEO: a máquina com agentes", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "camadas"},
+        {"t": "Checklist de qualidade (16 itens)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"},
         {"t": "Google: conteúdo gerado com IA (inglês)", "href": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content", "icone": "robo"}
       ]
     }

@@ -23,7 +23,7 @@
       "t": "The request to the agent: three proposals, each with evidence"
     },
     {
-      "t": "Reading a real INEMA week"
+      "t": "Reading a real ARCKHÉ week"
     }
   ],
   "hero_alt": "A small business owner reads a printed report with simple charts, pen in hand, at a table with coffee.",
@@ -79,14 +79,14 @@
     },
     {
       "tipo": "passos",
-      "titulo": "How INEMA runs the observer",
+      "titulo": "How ARCKHÉ runs the observer",
       "sub": "Tap each step.",
       "passos": [
         {
           "titulo": "The script",
           "sub": "one run per week",
           "texto": [
-            "In INEMA's SEO project, a script runs the non-branded export, inspects the key URLs, reads the positions of the target queries, and writes the report compared with the previous week. With the no-API option, it only rebuilds the report from what is already saved.",
+            "In ARCKHÉ's SEO project, a script runs the non-branded export, inspects the key URLs, reads the positions of the target queries, and writes the report compared with the previous week. With the no-API option, it only rebuilds the report from what is already saved.",
             "The public version of the export is the method's gsc_semanal.py; the report around it fits in a short script that the agent can build for you."
           ]
         },
@@ -110,7 +110,7 @@
           "titulo": "A real week",
           "sub": "Oct 5 to 11, 2026",
           "texto": [
-            "inema.club: 157 non-branded impressions across 51 queries, still with 0 non-branded clicks. inema.pro: the first 2 non-branded clicks, driven by \"curso jev\". Indexed: 13 of 14 key URLs; /eventos/ is missing.",
+            "ARCKHÉ AI: 157 non-branded impressions across 51 queries, still with 0 non-branded clicks. ARCKHÉ.pro: the first 2 non-branded clicks, driven by \"curso jev\". Indexed: 13 of 14 key URLs; /eventos/ is missing.",
             "The Spanish page, indexed on Oct 3, was already showing up for queries like \"aprender ia\" and \"cómo aprender ia\", at positions 29 to 61."
           ]
         }
@@ -122,7 +122,7 @@
       "sub": "gsc_semanal.py needs your Search Console credential (free, see the script header).",
       "blocos": [
         {
-          "rot": "Weekly non-branded export (public, inemaSEO method)",
+          "rot": "Weekly non-branded export (public, ARCKHÉSEO method)",
           "icone": "terminal",
           "conteudo": "export GSC_SITES=\"sc-domain:yoursite.com\"\nexport GSC_MARCA=\"yoursite|your name|common typo\"\nexport GSC_QUOTA_PROJ=\"<your Google Cloud project>\"\npython3 tools/gsc_semanal.py --dias 7 --saida dados/gsc"
         },
@@ -142,11 +142,11 @@
         "abas": [
           {
             "rot": "Report for Oct 5 to 11, 2026",
-            "html": "<pre># Relatório semanal de SEO — semana até 2026-10-11\n\nGerado em 2026-10-13 por `scripts/gsc_relatorio_semanal.py`.\n\n## Totais (cliques / impressões)\n\n| site       | total     | marca    | sem marca | consultas sem marca | vs semana anterior (impr. sem marca) |\n| inema.club | 114 / 702 | 87 / 238 | 0 / 157   | 51                  | ▲ +110 |\n| inema.pro  | 11 / 761  | 5 / 116  | 2 / 293   | 52                  | ▲ +279 |\n\n## Indexação das URLs-chave (inspeção de 2026-10-13)\n| /eventos/ | URL is unknown to Google | - | = |\n\nIndexadas: 13 de 14.</pre><p>Excerpt from the real report; the query tables were omitted.</p>"
+            "html": "<pre># Relatório semanal de SEO — semana até 2026-10-11\n\nGerado em 2026-10-13 por `scripts/gsc_relatorio_semanal.py`.\n\n## Totais (cliques / impressões)\n\n| site       | total     | marca    | sem marca | consultas sem marca | vs semana anterior (impr. sem marca) |\n| ARCKHÉ AI | 114 / 702 | 87 / 238 | 0 / 157   | 51                  | ▲ +110 |\n| ARCKHÉ.pro  | 11 / 761  | 5 / 116  | 2 / 293   | 52                  | ▲ +279 |\n\n## Indexação das URLs-chave (inspeção de 2026-10-13)\n| /eventos/ | URL is unknown to Google | - | = |\n\nIndexadas: 13 de 14.</pre><p>Excerpt from the real report; the query tables were omitted.</p>"
           },
           {
             "rot": "Three possible proposals",
-            "html": "<ol><li><b>Indexing</b>: /eventos/ is still unknown to Google. Request indexing in the panel and check whether any indexed page links to it.</li><li><b>Spanish</b>: non-branded impressions on Spanish queries for the ES page. Check the Spanish title and description against those queries.</li><li><b>inema.pro</b>: 2 non-branded clicks from \"curso jev\". Check whether an owner page exists for that query.</li></ol><p>Illustration of how the agent should answer: each proposal points to a line in the report.</p>"
+            "html": "<ol><li><b>Indexing</b>: /eventos/ is still unknown to Google. Request indexing in the panel and check whether any indexed page links to it.</li><li><b>Spanish</b>: non-branded impressions on Spanish queries for the ES page. Check the Spanish title and description against those queries.</li><li><b>ARCKHÉ.pro</b>: 2 non-branded clicks from \"curso jev\". Check whether an owner page exists for that query.</li></ol><p>Illustration of how the agent should answer: each proposal points to a line in the report.</p>"
           }
         ]
       }
@@ -191,7 +191,7 @@
           "cert": true
         },
         {
-          "p": "In the week of Oct 5 to 11, inema.club had 157 non-branded impressions and how many non-branded clicks?",
+          "p": "In the week of Oct 5 to 11, ARCKHÉ AI had 157 non-branded impressions and how many non-branded clicks?",
           "opcoes": [
             "157.",
             "51.",
@@ -199,7 +199,7 @@
             "114."
           ],
           "certa": 2,
-          "explica": "Non-branded impressions grew, but the club's non-branded clicks were still at 0. The first 2 non-branded clicks showed up on inema.pro.",
+          "explica": "Non-branded impressions grew, but the club's non-branded clicks were still at 0. The first 2 non-branded clicks showed up on ARCKHÉ.pro.",
           "ref": "codigo"
         },
         {
@@ -255,18 +255,18 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "gsc_semanal.py in the inemaSEO method",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_semanal.py",
+          "t": "gsc_semanal.py in the ARCKHÉSEO method",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_semanal.py",
           "icone": "grafico"
         },
         {
           "t": "Course 3: Measurement",
-          "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/en/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "alvo"
         },
         {
-          "t": "inemaSEO systems: Search Console history beyond 16 months",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉSEO systems: Search Console history beyond 16 months",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "terminal"
         }
       ]

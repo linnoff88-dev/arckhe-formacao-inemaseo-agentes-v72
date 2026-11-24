@@ -84,14 +84,14 @@
     },
     {
       "tipo": "passos",
-      "titulo": "How INEMA does it in batches",
+      "titulo": "How ARCKHÉ does it in batches",
       "sub": "Tap each step.",
       "passos": [
         {
           "titulo": "The call",
           "sub": "codex exec",
           "texto": [
-            "INEMA's news text generator calls Codex with the request through standard input, a read-only sandbox, an ephemeral session, and output to a file. Close the input after sending the request: otherwise the process keeps waiting.",
+            "ARCKHÉ's news text generator calls Codex with the request through standard input, a read-only sandbox, an ephemeral session, and output to a file. Close the input after sending the request: otherwise the process keeps waiting.",
             "In Claude Code, the same request runs in the project folder, with AGENTS.md forbidding writes outside the output folder."
           ]
         },
@@ -137,7 +137,7 @@
           "conteudo": "// passes each item of the listing page through the check (uses validar_extracao.mjs as a library)\nimport fs from 'node:fs'\nimport { apoiada, numerosNaFonte, tituloNaFonte } from './validar_extracao.mjs'\nconst [fonteArq, fichaArq] = process.argv.slice(2)\nconst fonte = fs.readFileSync(fonteArq, 'utf8')\nconst ficha = JSON.parse(fs.readFileSync(fichaArq, 'utf8'))\nlet validos = 0\nfor (const m of ficha.estrutura || []) {\n  const ok = tituloNaFonte(m.titulo, fonte) && numerosNaFonte(m.detalhe || '', fonte)\n  console.log(`${ok ? '✓' : '✗ descarta'}  módulo: ${m.titulo}`)\n  if (ok) validos++\n}\nfor (const campo of ['aprende', 'publico', 'constroi']) {\n  for (const f of ficha[campo] || []) {\n    const ok = apoiada(f, fonte) && numerosNaFonte(f, fonte)\n    console.log(`${ok ? '✓' : '✗ descarta'}  ${campo}: ${f}`)\n  }\n}\nconsole.log(validos >= 3 ? `ficha enriquecida (${validos} módulos válidos)` : `não publica como enriquecida (${validos} módulos válidos)`)"
         },
         {
-          "rot": "primeiroJson (from the INEMA text generator)",
+          "rot": "primeiroJson (from the ARCKHÉ text generator)",
           "icone": "chip",
           "conteudo": "function primeiroJson(txt) {\n  const ini = txt.indexOf('{')\n  let prof = 0, str = false, esc = false\n  for (let i = ini; i < txt.length; i++) {\n    const c = txt[i]\n    if (str) { if (esc) esc = false; else if (c === '\\\\') esc = true; else if (c === '\"') str = false; continue }\n    if (c === '\"') str = true\n    else if (c === '{') prof++\n    else if (c === '}' && --prof === 0) return JSON.parse(txt.slice(ini, i + 1))\n  }\n  throw new Error('JSON incompleto')\n}"
         }
@@ -261,17 +261,17 @@
       "links": [
         {
           "t": "validar_extracao.mjs (anti-fabrication check)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/validar_extracao.mjs",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/validar_extracao.mjs",
           "icone": "portao"
         },
         {
           "t": "Extractive listing page prompt",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/prompt-ficha-extrativa.md",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/prompt-ficha-extrativa.md",
           "icone": "chat"
         },
         {
           "t": "Course 2, lesson 5: listing pages with real data",
-          "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/en/aulas/fichas-dado-real/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "arquivo"
         }
       ]

@@ -93,7 +93,7 @@
           "sub": "each no drops the level",
           "texto": [
             "Can you check it with a command? Is the answer yes or no? Is it impossible to meet without doing the work? Does the proof appear in the output? Are function, regression and limit covered?",
-            "These are the questions from the goal.md template in the Execução Longa (Long Run kit) (open, from INEMA)."
+            "These are the questions from the goal.md template in the Execução Longa (Long Run kit) (open, from ARCKHÉ)."
           ]
         },
         {
@@ -101,7 +101,7 @@
           "sub": "function, regression, limit",
           "texto": [
             "Function: the page does what it should (one H1, right canonical, JSON-LD present). Regression: the rest of the site didn't break (tests and build). Limit: the agent didn't touch where it shouldn't.",
-            "On the INEMA portal, the rule is to run the tests and the build before the push: main has already broken because of a translation."
+            "On the ARCKHÉ portal, the rule is to run the tests and the build before the push: main has already broken because of a translation."
           ]
         },
         {
@@ -257,12 +257,12 @@
       "links": [
         {
           "t": "Execução Longa (Long Run kit): goal.md and stop rules",
-          "href": "https://inematds.github.io/execucao-longa/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "relogio"
         },
         {
-          "t": "inemaSEO quality checklist",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "t": "ARCKHÉSEO quality checklist",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         }
       ]

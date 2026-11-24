@@ -23,7 +23,7 @@
       "t": "open-seo, DataForSEO, Firecrawl y Apify: qué vende cada uno"
     },
     {
-      "t": "Dónde profundizar: el repositorio inemaseo-sistemas y el curso 7"
+      "t": "Dónde profundizar: el repositorio ARCKHÉseo-sistemas y el curso 7"
     }
   ],
   "hero_alt": "Un carpintero evalúa, en el banco de trabajo, entre herramientas manuales ordenadas en la pared y una máquina profesional grande.",
@@ -119,7 +119,7 @@
           "sub": "sin pagar",
           "texto": [
             "Para tu propio sitio: crawl4ai (Apache-2.0), Scrapy y Crawlee rastrean y convierten a texto. Scrapling (BSD-3) sortea protecciones antirrobot; úsalo solo en tu sitio o con autorización.",
-            "Las herramientas abiertas de INEMA para tu sitio están en el repositorio inemaseo-sistemas, enseñadas en el curso 7."
+            "Las herramientas abiertas de ARCKHÉ para tu sitio están en el repositorio ARCKHÉseo-sistemas, enseñadas en el curso 7."
           ]
         }
       ]
@@ -258,13 +258,13 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "inemaSEO sistemas: herramientas abiertas para tu sitio",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉSEO sistemas: herramientas abiertas para tu sitio",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "terminal"
         },
         {
           "t": "Curso 7: Sistemas, arma tu Semrush abierto",
-          "href": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/es/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },
         {

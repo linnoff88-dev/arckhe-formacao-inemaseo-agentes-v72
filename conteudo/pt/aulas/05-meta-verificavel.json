@@ -42,9 +42,9 @@
       "sub": "Clique em cada passo.",
       "passos": [
         {"titulo": "As cinco perguntas", "sub": "cada não derruba o nível",
-         "texto": ["Dá para checar com um comando? A resposta é sim ou não? É impossível cumprir sem fazer o trabalho? A prova aparece na saída? Função, regressão e limite estão cobertos?", "São as perguntas do modelo goal.md do kit Execução Longa (aberto, do INEMA)."]},
+         "texto": ["Dá para checar com um comando? A resposta é sim ou não? É impossível cumprir sem fazer o trabalho? A prova aparece na saída? Função, regressão e limite estão cobertos?", "São as perguntas do modelo goal.md do kit Execução Longa (aberto, do ARCKHÉ)."]},
         {"titulo": "Três camadas", "sub": "função, regressão, limite",
-         "texto": ["Função: a página faz o que devia (um H1, canônico certo, JSON-LD presente). Regressão: o resto do site não quebrou (testes e build). Limite: o agente não mexeu onde não devia.", "No portal do INEMA, a regra é rodar os testes e o build antes do push: o main já quebrou por causa de tradução."]},
+         "texto": ["Função: a página faz o que devia (um H1, canônico certo, JSON-LD presente). Regressão: o resto do site não quebrou (testes e build). Limite: o agente não mexeu onde não devia.", "No portal do ARCKHÉ, a regra é rodar os testes e o build antes do push: o main já quebrou por causa de tradução."]},
         {"titulo": "O que vai para o portão", "sub": "o checklist dividido",
          "texto": ["Do checklist dos 16, parte é mecânica (um H1, título de 50 a 60 caracteres, links que respondem 200, JSON-LD válido) e vira comando.", "Outra parte é julgamento: dado próprio verificável, leitura humana, teste da troca. Essa vai para o portão 2, de 10 a 20 minutos por página."]},
         {"titulo": "O loop", "sub": "/goal",
@@ -115,8 +115,8 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Kit Execução Longa: goal.md e regras de parada", "href": "https://inematds.github.io/execucao-longa/guia/", "icone": "relogio"},
-        {"t": "Checklist de qualidade do inemaSEO", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"}
+        {"t": "Kit Execução Longa: goal.md e regras de parada", "href": "https://linnoff88-dev.github.io/ "icone": "relogio"},
+        {"t": "Checklist de qualidade do ARCKHÉSEO", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"}
       ]
     }
   ]

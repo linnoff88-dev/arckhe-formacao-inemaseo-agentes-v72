@@ -72,7 +72,7 @@
           "icone": "check",
           "titulo": "Muestra en vivo",
           "sub": "verifica después",
-          "detalhe": "Abre algunas páginas publicadas y confirma el bloque en el HTML. En INEMA, el lote del 05/10 se verificó en GitHub Pages por muestra: 8 de 8."
+          "detalhe": "Abre algunas páginas publicadas y confirma el bloque en el HTML. En ARCKHÉ, el lote del 05/10 se verificó en GitHub Pages por muestra: 8 de 8."
         }
       ],
       "legenda": "Tres protecciones: dry-run, marcador y salto de repositorio sucio."
@@ -103,7 +103,7 @@
           "sub": "salta y avisa",
           "texto": [
             "Si el repositorio tiene un cambio sin commit, el script lo salta. Casi siempre es otra sesión (tuya o de otro agente) trabajando en él.",
-            "También salta el repositorio que está fuera de la rama esperada y el que no tiene HTML. En INEMA, los repositorios saltados por árbol de trabajo sucio quedaron para la ronda siguiente."
+            "También salta el repositorio que está fuera de la rama esperada y el que no tiene HTML. En ARCKHÉ, los repositorios saltados por árbol de trabajo sucio quedaron para la ronda siguiente."
           ]
         },
         {
@@ -111,7 +111,7 @@
           "sub": "el archivo correcto",
           "texto": [
             "Si el index.html es solo una redirección (meta refresh), el enlace va en la página de destino. Si el HTML lo genera un script, el enlace va en el generador; si no, desaparece en el próximo build.",
-            "En INEMA: 35 de 40 repositorios el 24/09, otros 25 el 02/10 y otros 21 el 05/10."
+            "En ARCKHÉ: 35 de 40 repositorios el 24/09, otros 25 el 02/10 y otros 21 el 05/10."
           ]
         }
       ]
@@ -230,7 +230,7 @@
             "Borrar los cambios."
           ],
           "certa": 2,
-          "explica": "Un cambio sin guardar es trabajo de alguien. Forzar mezcla tu commit con el de esa persona. En INEMA, los omitidos quedaron para la ronda siguiente.",
+          "explica": "Un cambio sin guardar es trabajo de alguien. Forzar mezcla tu commit con el de esa persona. En ARCKHÉ, los omitidos quedaron para la ronda siguiente.",
           "ref": "passos"
         },
         {
@@ -286,13 +286,13 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "link_de_volta.py en el método inemaSEO",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/link_de_volta.py",
+          "t": "link_de_volta.py en el método ARCKHÉSEO",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/link_de_volta.py",
           "icone": "terminal"
         },
         {
-          "t": "Método inemaSEO, etapa 8: autoridad que ya tienes",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO, etapa 8: autoridad que ya tienes",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "camadas"
         }
       ]

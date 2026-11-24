@@ -12,7 +12,7 @@
     {"t": "O que entra no relatório e de onde vem cada número"},
     {"t": "Agendar sem perder o controle: o cron gera, você commita"},
     {"t": "O pedido ao agente: três propostas, cada uma com evidência"},
-    {"t": "Ler uma semana real do INEMA"}
+    {"t": "Ler uma semana real do ARCKHÉ"}
   ],
   "hero_alt": "Dona de pequeno negócio lê com uma caneta na mão um relatório impresso com gráficos simples, numa mesa com café.",
   "secoes": [
@@ -36,17 +36,17 @@
     },
     {
       "tipo": "passos",
-      "titulo": "Como o INEMA roda o observador",
+      "titulo": "Como o ARCKHÉ roda o observador",
       "sub": "Clique em cada passo.",
       "passos": [
         {"titulo": "O script", "sub": "uma rodada por semana",
-         "texto": ["No projeto de SEO do INEMA, um script roda o export sem marca, inspeciona as URLs-chave, lê as posições das consultas-alvo e escreve o relatório comparado com a semana anterior. Com a opção sem API, só remonta o relatório com o que já está salvo.", "A versão pública do export é o gsc_semanal.py do método; o relatório em volta dele cabe num script curto que o agente pode montar para você."]},
+         "texto": ["No projeto de SEO do ARCKHÉ, um script roda o export sem marca, inspeciona as URLs-chave, lê as posições das consultas-alvo e escreve o relatório comparado com a semana anterior. Com a opção sem API, só remonta o relatório com o que já está salvo.", "A versão pública do export é o gsc_semanal.py do método; o relatório em volta dele cabe num script curto que o agente pode montar para você."]},
         {"titulo": "O agendamento", "sub": "terça às 9h",
          "texto": ["O cron roda toda terça às 9h e só gera os arquivos. O commit continua manual: você olha antes de guardar.", "O uso da API do Search Console para essa medição foi autorizado em 05/10/2026. É o seu próprio dado, mas a autorização vale para aquela finalidade."]},
         {"titulo": "O que o agente procura", "sub": "três tipos de proposta",
          "texto": ["Consulta sem marca que cresceu; página com impressão e sem clique (reescrever título e descrição); consulta com impressão e sem página dedicada (pauta validada de graça).", "Se nada mudou por semanas, o Plano B do método diz o que olhar: rastreio, demanda, título ou autoridade."]},
         {"titulo": "Uma semana real", "sub": "05 a 11/10/2026",
-         "texto": ["inema.club: 157 impressões sem marca em 51 consultas, ainda com 0 cliques sem marca. inema.pro: os 2 primeiros cliques sem marca, puxados por \"curso jev\". Indexadas: 13 de 14 URLs-chave; falta /eventos/.", "A página em espanhol, indexada em 03/10, já aparecia em consultas como \"aprender ia\" e \"cómo aprender ia\", nas posições 29 a 61."]}
+         "texto": ["ARCKHÉ AI: 157 impressões sem marca em 51 consultas, ainda com 0 cliques sem marca. ARCKHÉ.pro: os 2 primeiros cliques sem marca, puxados por \"curso jev\". Indexadas: 13 de 14 URLs-chave; falta /eventos/.", "A página em espanhol, indexada em 03/10, já aparecia em consultas como \"aprender ia\" e \"cómo aprender ia\", nas posições 29 a 61."]}
       ]
     },
     {
@@ -54,7 +54,7 @@
       "titulo": "O export, o agendamento e o pedido ao agente",
       "sub": "O gsc_semanal.py precisa da sua credencial do Search Console (gratuita, ver o cabeçalho do script).",
       "blocos": [
-        {"rot": "Export semanal sem marca (público, método inemaSEO)", "icone": "terminal",
+        {"rot": "Export semanal sem marca (público, método ARCKHÉSEO)", "icone": "terminal",
          "conteudo": "export GSC_SITES=\"sc-domain:seusite.com\"\nexport GSC_MARCA=\"seusite|seu nome|erro comum de digitação\"\nexport GSC_QUOTA_PROJ=\"<seu projeto no Google Cloud>\"\npython3 tools/gsc_semanal.py --dias 7 --saida dados/gsc"},
         {"rot": "Agendamento (modelo de crontab: terça às 9h)", "icone": "relogio",
          "conteudo": "0 9 * * 2 cd ~/projetos/seo-seusite && python3 tools/gsc_semanal.py --dias 7 --saida dados/gsc >> dados/gsc/cron.log 2>&1"},
@@ -64,8 +64,8 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Relatório de 05 a 11/10/2026", "html": "<pre># Relatório semanal de SEO — semana até 2026-10-11\n\nGerado em 2026-10-13 por `scripts/gsc_relatorio_semanal.py`.\n\n## Totais (cliques / impressões)\n\n| site       | total     | marca    | sem marca | consultas sem marca | vs semana anterior (impr. sem marca) |\n| inema.club | 114 / 702 | 87 / 238 | 0 / 157   | 51                  | ▲ +110 |\n| inema.pro  | 11 / 761  | 5 / 116  | 2 / 293   | 52                  | ▲ +279 |\n\n## Indexação das URLs-chave (inspeção de 2026-10-13)\n| /eventos/ | URL is unknown to Google | - | = |\n\nIndexadas: 13 de 14.</pre><p>Trecho do relatório real; as tabelas de consultas foram omitidas.</p>"},
-          {"rot": "Três propostas possíveis", "html": "<ol><li><b>Indexação</b>: /eventos/ segue desconhecida para o Google. Pedir indexação no painel e conferir se alguma página indexada linka para ela.</li><li><b>Espanhol</b>: impressões sem marca em consultas em espanhol na página ES. Conferir título e descrição em espanhol para essas consultas.</li><li><b>inema.pro</b>: 2 cliques sem marca vindos de \"curso jev\". Conferir se existe página dona para essa consulta.</li></ol><p>Ilustração de como o agente deve responder: cada proposta aponta uma linha do relatório.</p>"}
+          {"rot": "Relatório de 05 a 11/10/2026", "html": "<pre># Relatório semanal de SEO — semana até 2026-10-11\n\nGerado em 2026-10-13 por `scripts/gsc_relatorio_semanal.py`.\n\n## Totais (cliques / impressões)\n\n| site       | total     | marca    | sem marca | consultas sem marca | vs semana anterior (impr. sem marca) |\n| ARCKHÉ AI | 114 / 702 | 87 / 238 | 0 / 157   | 51                  | ▲ +110 |\n| ARCKHÉ.pro  | 11 / 761  | 5 / 116  | 2 / 293   | 52                  | ▲ +279 |\n\n## Indexação das URLs-chave (inspeção de 2026-10-13)\n| /eventos/ | URL is unknown to Google | - | = |\n\nIndexadas: 13 de 14.</pre><p>Trecho do relatório real; as tabelas de consultas foram omitidas.</p>"},
+          {"rot": "Três propostas possíveis", "html": "<ol><li><b>Indexação</b>: /eventos/ segue desconhecida para o Google. Pedir indexação no painel e conferir se alguma página indexada linka para ela.</li><li><b>Espanhol</b>: impressões sem marca em consultas em espanhol na página ES. Conferir título e descrição em espanhol para essas consultas.</li><li><b>ARCKHÉ.pro</b>: 2 cliques sem marca vindos de \"curso jev\". Conferir se existe página dona para essa consulta.</li></ol><p>Ilustração de como o agente deve responder: cada proposta aponta uma linha do relatório.</p>"}
         ]
       }
     },
@@ -90,9 +90,9 @@
         {"p": "O cron gera o relatório toda terça. Quem faz o commit?",
          "opcoes": ["O cron, automaticamente.", "O agente, sem perguntar.", "Você, depois de olhar.", "Ninguém: relatório não se guarda."],
          "certa": 2, "explica": "O cron só gera os arquivos. Guardar é decisão sua, depois de ver se a rodada saiu certa.", "ref": "passos", "cert": true},
-        {"p": "Na semana de 05 a 11/10, o inema.club teve 157 impressões sem marca e quantos cliques sem marca?",
+        {"p": "Na semana de 05 a 11/10, o ARCKHÉ AI teve 157 impressões sem marca e quantos cliques sem marca?",
          "opcoes": ["157.", "51.", "0.", "114."],
-         "certa": 2, "explica": "As impressões sem marca cresceram, mas os cliques sem marca do club continuavam em 0. Os 2 primeiros cliques sem marca apareceram no inema.pro.", "ref": "codigo"},
+         "certa": 2, "explica": "As impressões sem marca cresceram, mas os cliques sem marca do club continuavam em 0. Os 2 primeiros cliques sem marca apareceram no ARCKHÉ.pro.", "ref": "codigo"},
         {"p": "O agente propõe \"publicar 10 artigos novos\" sem citar nenhuma linha do relatório. O que fazer?",
          "opcoes": ["Aprovar: mais conteúdo é melhor.", "Recusar: proposta sem evidência não entra, e volume sem dado próprio é risco de conteúdo escalado.", "Aprovar só 5.", "Pedir que ele publique e meça depois."],
          "certa": 1, "explica": "O pedido exige a linha que justifica. E a régua: o Google avalia valor, não volume.", "ref": "diagrama"},
@@ -115,9 +115,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "gsc_semanal.py no método inemaSEO", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_semanal.py", "icone": "grafico"},
-        {"t": "Curso 3: Medição", "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/", "icone": "alvo"},
-        {"t": "inemaSEO sistemas: histórico do Search Console além de 16 meses", "href": "https://github.com/inematds/inemaseo-sistemas", "icone": "terminal"}
+        {"t": "gsc_semanal.py no método ARCKHÉSEO", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_semanal.py", "icone": "grafico"},
+        {"t": "Curso 3: Medição", "href": "https://linnoff88-dev.github.io/ "icone": "alvo"},
+        {"t": "ARCKHÉSEO sistemas: histórico do Search Console além de 16 meses", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas", "icone": "terminal"}
       ]
     }
   ]
