@@ -142,7 +142,7 @@
         "abas": [
           {
             "rot": "Reporte del 05 al 11/10/2026",
-            "html": "<pre># Relatório semanal de SEO — semana até 2026-10-11\n\nGerado em 2026-10-13 por `scripts/gsc_relatorio_semanal.py`.\n\n## Totais (cliques / impressões)\n\n| site       | total     | marca    | sem marca | consultas sem marca | vs semana anterior (impr. sem marca) |\n| ARCKHÉ AI | 114 / 702 | 87 / 238 | 0 / 157   | 51                  | ▲ +110 |\n| ARCKHÉ.pro  | 11 / 761  | 5 / 116  | 2 / 293   | 52                  | ▲ +279 |\n\n## Indexação das URLs-chave (inspeção de 2026-10-13)\n| /eventos/ | URL is unknown to Google | - | = |\n\nIndexadas: 13 de 14.</pre><p>Fragmento del reporte real; se omitieron las tablas de consultas.</p>"
+            "html": "<pre># Relatório semanal de SEO — semana até 2026-10-11\n\nGerado em 2026-10-13 por `scripts/gsc_relatorio_semanal.py`.\n\n## Totais (cliques / impressões)\n\n| site       | total     | marca    | sem marca | consultas sem marca | vs semana anterior (impr. sem marca) |\n| ARCKHÉ AI | 114 / 702 | 87 / 238 | 0 / 157   | 51                  | ▲ +110 |\n| ARCKHÉ.pro  | 11 / 761  | 5 / 116  | 2 / 293   | 52                  | ▲ +279 |\n\n## Indexaçêo das URLs-chave (inspeçêo de 2026-10-13)\n| /eventos/ | URL is unknown to Google | - | = |\n\nIndexadas: 13 de 14.</pre><p>Fragmento del reporte real; se omitieron las tablas de consultas.</p>"
           },
           {
             "rot": "Tres propuestas posibles",

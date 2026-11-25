@@ -93,7 +93,7 @@
           "sub": "each no drops the level",
           "texto": [
             "Can you check it with a command? Is the answer yes or no? Is it impossible to meet without doing the work? Does the proof appear in the output? Are function, regression and limit covered?",
-            "These are the questions from the goal.md template in the Execução Longa (Long Run kit) (open, from ARCKHÉ)."
+            "These are the questions from the goal.md template in the Execuçêo Longa (Long Run kit) (open, from ARCKHÉ)."
           ]
         },
         {
@@ -128,7 +128,7 @@
       "sub": "Swap the paths for the ones in your project. Anything between less-than and greater-than signs is for you to fill in.",
       "blocos": [
         {
-          "rot": "goal.md (adapted from the Execução Longa kit)",
+          "rot": "goal.md (adapted from the Execuçêo Longa kit)",
           "icone": "arquivo",
           "conteudo": "# Goal — new page: <slug>\n\n## Result\nThe page /<slug>/ ready for gate 2, without breaking the rest of the site.\n\n## Done criteria (command → expected output)\n**Function**\n- [ ] grep -c '<h1' dist/<slug>/index.html → 1\n- [ ] grep -o 'rel=\"canonical\" href=\"[^\"]*\"' dist/<slug>/index.html → https://www.seusite.com/<slug>/\n- [ ] grep -c 'application/ld+json' dist/<slug>/index.html → 1 or more\n\n**Regression**\n- [ ] npm test && npm run build → no errors\n\n**Limit**\n- [ ] git diff --stat -- tests/ docs/CHECKLIST.md → empty\n- [ ] git status --porcelain → only the new page and the 2–3 pages of the link ladder\n\n## Human gate (the command does not prove it)\n- first-hand data with a link to the evidence (checklist 2)\n- human reading: opinion, what went wrong, the author's voice (checklist 9)\n- swap test (checklist 10)\n\n## Constraints\n- through the subscription only; no API without authorization\n- no push: the push is mine, after the gate"
         },
@@ -256,7 +256,7 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "Execução Longa (Long Run kit): goal.md and stop rules",
+          "t": "Execuçêo Longa (Long Run kit): goal.md and stop rules",
           "href": "https://linnoff88-dev.github.io/
           "icone": "relogio"
         },

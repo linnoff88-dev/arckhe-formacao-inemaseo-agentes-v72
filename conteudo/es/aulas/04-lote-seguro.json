@@ -142,7 +142,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>$ python3 tools/link_de_volta.py mapa.json\nrepos/curso-pao: DRY: entraria em index.html\nrepos/curso-cafe: PULA: alterações não commitadas\nrepos/curso-queijo: OK: já tinha\nrepos/curso-vinho: DRY: entraria em landing.html\n\n$ python3 tools/link_de_volta.py mapa.json --apply\nrepos/curso-pao: APLICADO em index.html\nrepos/curso-cafe: PULA: alterações não commitadas\nrepos/curso-queijo: OK: já tinha\nrepos/curso-vinho: APLICADO em landing.html</pre><p>Cuatro repositorios de prueba armados para la clase.</p>"
+            "html": "<pre>$ python3 tools/link_de_volta.py mapa.json\nrepos/curso-pao: DRY: entraria em index.html\nrepos/curso-cafe: PULA: alterações nêo commitadas\nrepos/curso-queijo: OK: já tinha\nrepos/curso-vinho: DRY: entraria em landing.html\n\n$ python3 tools/link_de_volta.py mapa.json --apply\nrepos/curso-pao: APLICADO em index.html\nrepos/curso-cafe: PULA: alterações nêo commitadas\nrepos/curso-queijo: OK: já tinha\nrepos/curso-vinho: APLICADO em landing.html</pre><p>Cuatro repositorios de prueba armados para la clase.</p>"
           },
           {
             "rot": "Cómo leerlo",
@@ -222,7 +222,7 @@
           "cert": true
         },
         {
-          "p": "Un repositorio aparece como \"PULA: alterações não commitadas\". ¿Qué haces?",
+          "p": "Un repositorio aparece como \"PULA: alterações nêo commitadas\". ¿Qué haces?",
           "opcoes": [
             "Hacer stash y ejecutar de nuevo.",
             "Hacer commit de todo lo que hay ahí.",

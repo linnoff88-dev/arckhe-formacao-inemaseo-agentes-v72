@@ -93,7 +93,7 @@
           "sub": "cada no baja el nivel",
           "texto": [
             "¿Se puede comprobar con un comando? ¿La respuesta es sí o no? ¿Es imposible cumplir sin hacer el trabajo? ¿La prueba aparece en la salida? ¿Función, regresión y límite están cubiertos?",
-            "Son las preguntas de la plantilla goal.md del kit Execução Longa (kit de ejecución larga) (abierto, de ARCKHÉ)."
+            "Son las preguntas de la plantilla goal.md del kit Execuçêo Longa (kit de ejecución larga) (abierto, de ARCKHÉ)."
           ]
         },
         {
@@ -128,7 +128,7 @@
       "sub": "Cambia las rutas por las de tu proyecto. Lo que está entre signos de menor y mayor es para completar.",
       "blocos": [
         {
-          "rot": "goal.md (adaptado del kit Execução Longa)",
+          "rot": "goal.md (adaptado del kit Execuçêo Longa)",
           "icone": "arquivo",
           "conteudo": "# Goal — página nueva: <slug>\n\n## Resultado\nLa página /<slug>/ lista para la compuerta 2, sin romper el resto del sitio.\n\n## Criterios de listo (comando → salida esperada)\n**Función**\n- [ ] grep -c '<h1' dist/<slug>/index.html → 1\n- [ ] grep -o 'rel=\"canonical\" href=\"[^\"]*\"' dist/<slug>/index.html → https://www.seusite.com/<slug>/\n- [ ] grep -c 'application/ld+json' dist/<slug>/index.html → 1 o más\n\n**Regresión**\n- [ ] npm test && npm run build → sin error\n\n**Límite**\n- [ ] git diff --stat -- tests/ docs/CHECKLIST.md → vacío\n- [ ] git status --porcelain → solo la página nueva y las 2–3 páginas de la escalera de enlaces\n\n## Compuerta humana (el comando no lo prueba)\n- dato propio con enlace a la evidencia (checklist 2)\n- lectura humana: opinión, qué salió mal, voz del autor (checklist 9)\n- prueba del cambio (checklist 10)\n\n## Restricciones\n- solo por la suscripción; nada de API sin autorización\n- sin push: el push es mío, después de la compuerta"
         },
@@ -256,7 +256,7 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "Kit Execução Longa: goal.md y reglas de parada",
+          "t": "Kit Execuçêo Longa: goal.md y reglas de parada",
           "href": "https://linnoff88-dev.github.io/
           "icone": "relogio"
         },
